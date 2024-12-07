@@ -5,8 +5,9 @@
  */
 // urob helpers
 
-#include <zmk-helpers/helper.h>
-#include <zmk-helpers/key-labels/lily58.h>
+//#include <zmk-helpers/helper.h>
+//#include <zmk-helpers/key-labels/lily58.h>
+#include <home-row-mods.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
@@ -39,6 +40,9 @@
 //)
 
 / {
+    behaviors {
+        hmr: 
+    },
     keymap {
         compatible = "zmk,keymap";
 
