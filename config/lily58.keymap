@@ -18,7 +18,7 @@
             compatible = "zmk,behavior-tap-dance";
             tapping-term-ms = <200>;
             #binding-cells = <0>;
-            bindings = <&kp Q>, <&kp L>;
+            bindings = <&kp LSHIFT>, <&caps_word>, <&kp CAPS_LOCK>;
         };
     };
     keymap {
