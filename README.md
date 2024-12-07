@@ -3,8 +3,8 @@
 - Utilizes urob's macro helpers for homerow mods
 - Niceview left and right
 
-![default_layer](/lily58_rev1_default_layer.png)
+![base](/lily58_rev1_base.png)
 
-![lower_layer](/lily58_rev1_lower_layer.png)
+![nav](/lily58_rev1_nav.png)
 
-![raise_layer](/lily58_rev1_raise_layer.png)
+![util](/lily58_rev1_util.png)
