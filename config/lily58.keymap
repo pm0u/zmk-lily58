@@ -40,9 +40,6 @@
 //)
 
 / {
-    behaviors {
-        hmr: 
-    },
     keymap {
         compatible = "zmk,keymap";
 
