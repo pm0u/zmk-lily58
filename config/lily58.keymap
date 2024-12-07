@@ -17,7 +17,8 @@
         capsdance: caps_dance {
             compatible = "zmk,behavior-tap-dance";
             tapping-term-ms = <200>;
-            bindings = <&kp LSHIFT>, <&caps_word>, <&kp CAPS_LOCK>;
+            bindings = <&kp Q>, <&kp L>;
+            //bindings = <&kp LSHIFT>, <&caps_word >, <&kp CAPS_LOCK>;
         }
     };
     keymap {
