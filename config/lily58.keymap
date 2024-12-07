@@ -16,9 +16,9 @@
     behaviors {
         capsdance: caps_dance {
             compatible = "zmk,behavior-tap-dance";
-            tapping-term-ms = <200>;
             #binding-cells = <0>;
-            bindings = <&kp LSHIFT>, <&caps_word 0>, <&kp CAPS_LOCK>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LSHIFT>, <&kp CAPS_LOCK>;
         };
     };
     keymap {
