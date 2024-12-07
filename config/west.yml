@@ -1,11 +1,9 @@
 manifest:
   remotes:
-    #- name: zmkfirmware
-    #  url-base: https://github.com/zmkfirmware
     - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: pm0u
       url-base: https://github.com/pm0u
-    # Additional modules containing boards/shields/custom code can be listed here as well
-    # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
     - name: urob
       url-base: https://github.com/urob
   projects:
@@ -13,7 +11,7 @@ manifest:
     #  remote: zmkfirmware
     # More up to date branch of the mouse PR
     - name: zmk
-      remote: zmkfirmware
+      remote: pm0u
       revision: feat/pointers-move-scroll
       import: app/west.yml
     - name: zmk-helpers
