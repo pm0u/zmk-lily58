@@ -5,6 +5,7 @@
  */
 
 #include "home-row-mods.h"
+#include "mouse-keys.h"
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
