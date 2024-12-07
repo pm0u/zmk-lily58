@@ -4,5 +4,5 @@
 
 ZMK_TAP_DANCE(caps_dance, 
   tapping-term-ms = <200>;
-  bindings = <&kp LSHIFT>, <&caps_word>, <&kp CAPS_LOCK>
+  bindings = <&kp LSHIFT>, <&caps_word>, <&kp CAPS_LOCK>;
 )
