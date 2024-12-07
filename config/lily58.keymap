@@ -17,6 +17,7 @@
         capsdance: caps_dance {
             compatible = "zmk,behavior-tap-dance";
             tapping-term-ms = <200>;
+            #binding-cells = <0>;
             bindings = <&kp Q>, <&kp L>;
         };
     };
