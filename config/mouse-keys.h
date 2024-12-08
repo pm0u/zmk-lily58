@@ -9,9 +9,9 @@
  */
  
 // Default 600
-#define ZMK_MOUSE_DEFAULT_MOVE_VAL 1000
+#define ZMK_MOUSE_DEFAULT_MOVE_VAL 3000
 // Default 10
-#define ZMK_MOUSE_DEFAULT_SCRL_VAL 30
+#define ZMK_MOUSE_DEFAULT_SCRL_VAL 25
 
 // 1 = natural scroll in OS. 0 = no
 #define NATURAL_SCROLL 1
@@ -34,7 +34,7 @@
 
 &msc {
   acceleration-exponent = <1>;
-  time-to-max-speed-ms = <1000>;
+  time-to-max-speed-ms = <1500>;
   delay-ms = <0>;
   trigger-period-ms = <2>;
 };
