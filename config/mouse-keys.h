@@ -8,12 +8,23 @@
  * https://github.com/manna-harbour/miryoku_zmk/blob/master/miryoku/miryoku_kludge_mousekeyspr.h
  */
 
-#define U_MOUSE_MOVE_EXPONENT 5
+#define U_MOUSE_MOVE_EXPONENT 7
 #define U_MOUSE_MOVE_TIME 1500
 #define U_MOUSE_MOVE_DELAY 0
-#define U_MOUSE_SCROLL_EXPONENT 5
+#define U_MOUSE_SCROLL_EXPONENT 7
 #define U_MOUSE_SCROLL_TIME 5000
 #define U_MOUSE_SCROLL_DELAY 0
+
+// 1 = natural scroll in OS. 0 = no
+#define NATURAL_SCROLL 1
+
+#if IS_ENABLED(NATURAL_SCROLL)
+  #define SCR_UP SCRL_DOWN
+  #define SCR_DOWN SCRL_UP
+#else
+  #define SCR_UP SCRL_UP
+  #define SCR_DOWN SCRL_DOWN
+#endif
 
 &mmv {
   acceleration-exponent = <U_MOUSE_MOVE_EXPONENT>;
