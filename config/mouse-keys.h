@@ -1,3 +1,5 @@
+#include <dt-bindings/zmk/mouse.h>
+
 /**
  * Taken from
  * https://github.com/manna-harbour/miryoku_zmk/blob/master/miryoku/miryoku_kludge_mousekeyspr.dtsi
