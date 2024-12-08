@@ -20,7 +20,7 @@
 #endif
 
 &mmv {
-  acceleration-exponent = <2>;
+  acceleration-exponent = <1000>;
   time-to-max-speed-ms = <500>;
   delay-ms = <0>;
   trigger-period-ms = <2>;
@@ -28,8 +28,8 @@
 
 
 &msc {
-  acceleration-exponent = <2>;
+  acceleration-exponent = <1000>;
   time-to-max-speed-ms = <1000>;
   delay-ms = <0>;
-  trigger-period-ms = <2>;
+  trigger-period-ms = <2>
 };
