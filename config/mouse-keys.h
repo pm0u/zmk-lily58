@@ -7,6 +7,11 @@
  * https://github.com/manna-harbour/miryoku_zmk/blob/master/miryoku/miryoku_kludge_mousekeyspr.dtsi
  * https://github.com/manna-harbour/miryoku_zmk/blob/master/miryoku/miryoku_kludge_mousekeyspr.h
  */
+ 
+// Default 600
+#define ZMK_MOUSE_DEFAULT_MOVE_VAL 1000
+// Default 10
+#define ZMK_MOUSE_DEFAULT_SCRL_VAL 30
 
 // 1 = natural scroll in OS. 0 = no
 #define NATURAL_SCROLL 1
@@ -20,7 +25,7 @@
 #endif
 
 &mmv {
-  acceleration-exponent = <1000>;
+  acceleration-exponent = <1>;
   time-to-max-speed-ms = <500>;
   delay-ms = <0>;
   trigger-period-ms = <2>;
@@ -28,8 +33,8 @@
 
 
 &msc {
-  acceleration-exponent = <1000>;
+  acceleration-exponent = <1>;
   time-to-max-speed-ms = <1000>;
   delay-ms = <0>;
-  trigger-period-ms = <2>
+  trigger-period-ms = <2>;
 };
