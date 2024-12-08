@@ -85,7 +85,7 @@
             bindings = <
 &trans  &trans          &trans          &trans              &trans          &trans                          &trans           &trans          &trans        &trans            &trans  &trans
 &trans  &trans          &trans          &trans              &trans          &trans                          &kp C_AC_PASTE   &kp C_AC_COPY   &kp C_AC_CUT  &kp C_AC_UNDO  &kp C_AC_REDO  &trans
-&trans  &kp LEFT_ALT    &kp LEFT_GUI    &kp LEFT_CONTROL    &kp LEFT_SHIFT  &trans                          &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT   &trans  &trans
+&trans  &kp LEFT_ALT    &kp LEFT_GUI    &kp LEFT_CONTROL    &kp LEFT_SHIFT  &trans                          &mmv MOVE_LEFT 2   &mmv MOVE_DOWN 2  &mmv MOVE_UP  &mmv MOVE_RIGHT   &trans  &trans
 &trans  &trans          &trans          &trans              &trans          &trans  &trans      &trans      &msc SCRL_LEFT   &msc SCR_DOWN  &msc SCR_UP  &msc SCRL_RIGHT   &trans  &trans
                                         &trans              &trans          &trans  &trans      &mkp MB1    &mkp MB2         &mkp MB3            &trans
             >;
