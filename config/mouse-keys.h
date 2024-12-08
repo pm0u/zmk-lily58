@@ -1,3 +1,4 @@
+#include <behaviors.dtsi>
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors/mouse_move.dtsi>
 
