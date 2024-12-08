@@ -9,7 +9,7 @@
  */
  
 // Default 600
-#define ZMK_MOUSE_DEFAULT_MOVE_VAL 3000
+#define ZMK_MOUSE_DEFAULT_MOVE_VAL 3300
 // Default 10
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 25
 
@@ -25,15 +25,15 @@
 #endif
 
 &mmv {
-  acceleration-exponent = <1>;
-  time-to-max-speed-ms = <500>;
+  acceleration-exponent = <2>;
+  time-to-max-speed-ms = <900>;
   delay-ms = <0>;
   trigger-period-ms = <2>;
 };
 
 
 &msc {
-  acceleration-exponent = <1>;
+  acceleration-exponent = <2>;
   time-to-max-speed-ms = <1500>;
   delay-ms = <0>;
   trigger-period-ms = <2>;
