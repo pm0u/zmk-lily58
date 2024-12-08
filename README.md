@@ -8,3 +8,5 @@
 ![nav](/lily58_rev1_nav.png)
 
 ![util](/lily58_rev1_util.png)
+
+![mouse](/lily58_rev1_mouse.png)
