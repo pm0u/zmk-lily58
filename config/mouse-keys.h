@@ -9,10 +9,10 @@
  */
 
 #define U_MOUSE_MOVE_EXPONENT 1800
-#define U_MOUSE_MOVE_TIME 1100
+#define U_MOUSE_MOVE_TIME 500
 #define U_MOUSE_MOVE_DELAY 0
 #define U_MOUSE_SCROLL_EXPONENT 3000
-#define U_MOUSE_SCROLL_TIME 3000
+#define U_MOUSE_SCROLL_TIME 1000
 #define U_MOUSE_SCROLL_DELAY 0
 
 // 1 = natural scroll in OS. 0 = no
@@ -27,14 +27,14 @@
 #endif
 
 &mmv {
-  acceleration-exponent = <U_MOUSE_MOVE_EXPONENT>;
-  time-to-max-speed-ms = <U_MOUSE_MOVE_TIME>;
+  acceleration-exponent = <12>;
+  time-to-max-speed-ms = U_MOUSE_MOVE_TIME;
   delay-ms = <U_MOUSE_MOVE_DELAY>;
 };
 
 
 &msc {
-  acceleration-exponent = <U_MOUSE_SCROLL_EXPONENT>;
+  acceleration-exponent = <12>;
   time-to-max-speed-ms = <U_MOUSE_SCROLL_TIME>;
   delay-ms = <U_MOUSE_SCROLL_DELAY>;
 };
