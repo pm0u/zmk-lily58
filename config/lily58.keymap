@@ -25,11 +25,76 @@
     
     combos {
         compatible = "zmk,combos";
-        combo_capsword_taps {
-            timeout-ms = <100>;
+        // Caps
+        combo_capsword {
+            timeout-ms = <50>;
             // Shift on either side
             key-positions = <28 31>;
             bindings = <&caps_word>;
+            layers = <0>;
+            require-prior-idle-ms = <100>;
+        };
+
+        combo_capslock {
+            timeout-ms = <50>;
+            // middle home on either side
+            key-positions = <27 32>;
+            bindings = <&kp CAPSLOCK>;
+            layers = <0>;
+            require-prior-idle-ms = <100>;
+        };
+        
+        // Symbols
+        combo_parens_open {
+            timeout-ms = <50>;
+            // index + middle
+            key-positions = <27 28>;
+            bindings = <&kp LPAR>;
+            layers = <0>;
+            require-prior-idle-ms = <100>;
+        };
+        
+        combo_square_open {
+            timeout-ms = <50>;
+            // middle + ring
+            key-positions = <26 27>;
+            bindings = <&kp LBKT>;
+            layers = <0>;
+            require-prior-idle-ms = <100>;
+        };
+
+        combo_curly_open {
+            timeout-ms = <50>;
+            // middle + ring
+            key-positions = <25 26>;
+            bindings = <&kp LS(LBKT)>;
+            layers = <0>;
+            require-prior-idle-ms = <100>;
+        };
+
+        combo_parens_close {
+            timeout-ms = <50>;
+            // index + middle
+            key-positions = <31 32>;
+            bindings = <&kp RPAR>;
+            layers = <0>;
+            require-prior-idle-ms = <100>;
+        };
+        
+        combo_square_open {
+            timeout-ms = <50>;
+            // middle + ring
+            key-positions = <32 33>;
+            bindings = <&kp RBKT>;
+            layers = <0>;
+            require-prior-idle-ms = <100>;
+        };
+
+        combo_curly_open {
+            timeout-ms = <50>;
+            // middle + ring
+            key-positions = <33 34>;
+            bindings = <&kp RS(RBKT)>;
             layers = <0>;
             require-prior-idle-ms = <100>;
         };
