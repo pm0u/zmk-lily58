@@ -28,7 +28,7 @@
   acceleration-exponent = <2>;
   time-to-max-speed-ms = <5000>;
   delay-ms = <0>;
-  trigger-period-ms = <3>;
+  trigger-period-ms = <16>;
 };
 
 
@@ -36,5 +36,5 @@
   acceleration-exponent = <2>;
   time-to-max-speed-ms = <4000>;
   delay-ms = <0>;
-  trigger-period-ms = <2>;
+  trigger-period-ms = <16>;
 };
