@@ -28,7 +28,8 @@
     };
     
     combos {
-        capsword_taps {
+        compatible = "zmk, combos";
+        combo_capsword_taps {
             timeout-ms = <100>;
             // Shift on either side
             key-positions = <LB1 RB1>;
