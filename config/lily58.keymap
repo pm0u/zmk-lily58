@@ -19,9 +19,19 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp LSHIFT>, <&caps_word>, <&kp CAPSLOCK>;
+            bindings = <&kp LSHIFT>, <&kp CAPSLOCK>;
         };
     };
+    
+    combos {
+        capsword_taps {
+            timeout-ms = <30>;
+            // Shift on either side
+            key-positions = <29 32>;
+            bindings = <&caps_word>;
+            layers = <0>
+        }
+    }
 
     keymap {
         compatible = "zmk,keymap";
@@ -43,7 +53,8 @@
 //                                                            ╰───────────────────┴───────────────────┴───────────────────┴───────────────────╯       ╰───────────────────┴───────────────────┴───────────────────┴───────────────────╯
             >;
         };
-
+        // 29 & 32
+// Might be nice to have paste special RC(RS(V)) & select all on this layer RC(A). Maybe mouse too.
         nav {
 //       ╭────────────────────╮
             label = "nav";
