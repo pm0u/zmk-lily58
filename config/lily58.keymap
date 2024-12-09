@@ -29,7 +29,7 @@
             // Shift on either side
             key-positions = <29 32>;
             bindings = <&caps_word>;
-            layers = <0>
+            layers = <0>;
         }
     }
 
