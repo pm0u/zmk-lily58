@@ -81,7 +81,7 @@
             require-prior-idle-ms = <100>;
         };
         
-        combo_square_open {
+        combo_square_close {
             timeout-ms = <50>;
             // middle + ring
             key-positions = <32 33>;
@@ -90,7 +90,7 @@
             require-prior-idle-ms = <100>;
         };
 
-        combo_curly_open {
+        combo_curly_close {
             timeout-ms = <50>;
             // middle + ring
             key-positions = <33 34>;
