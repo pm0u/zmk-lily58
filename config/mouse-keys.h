@@ -18,10 +18,10 @@
 
 #if IS_ENABLED(NATURAL_SCROLL)
   #define SCRLUP SCRL_DOWN
-  #define SCRLDOWN SCRL_UP
+  #define SCRLDN SCRL_UP
 #else
   #define SCRLUP SCRL_UP
-  #define SCRLDOWN SCRL_DOWN
+  #define SCRLDN SCRL_DOWN
 #endif
 
 &mmv {
