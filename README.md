@@ -1,12 +1,6 @@
 # Lily58 Config
 
 - Utilizes urob's macro helpers for homerow mods
-- Niceview left and right
+- Mouse keys with custom firmware with PR from main. Maintained on separate fork to keep up to date.
 
-![base](/lily58_rev1_base.png)
-
-![nav](/lily58_rev1_nav.png)
-
-![util](/lily58_rev1_util.png)
-
-![mouse](/lily58_rev1_mouse.png)
+![keymap](/lily.svg)
