@@ -18,4 +18,6 @@ ZMK_COMBO(capsword,   &caps_word,        LB1 RB1,    BASE, COMBO_TERM_FAST, COMB
 ZMK_COMBO(capslock,   &kp CAPSLOCK,     LB2 RB2,    BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 
 // Homerow same side combos, 8 arg version
-ZMK_COMBO(parens_open, &kp LPAR,        LB1 LB2,    BASE, COMBO_TERM_FAST,  COMBO_IDLE_FAST,  LS(LGUI), KEYS_R)
+ZMK_COMBO(parens_open,  &kp LPAR,        LB1 LB2,    BASE, COMBO_TERM_FAST,  COMBO_IDLE_FAST,  LS(LGUI), KEYS_R)
+ZMK_COMBO(square_open,  &kp LBKT,        LB2 LB3,    BASE, COMBO_TERM_FAST,  COMBO_IDLE_FAST,  LG(LCTRL), KEYS_R)
+ZMK_COMBO(curly_open,   &kp LS(LBKT),    LB3 LB4,    BASE, COMBO_TERM_FAST,  COMBO_IDLE_FAST,  LC(LALT), KEYS_R)
