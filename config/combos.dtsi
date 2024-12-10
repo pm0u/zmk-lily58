@@ -14,8 +14,8 @@
 #define COMBO_IDLE_SLOW 50
 
 // Caps
-ZMK_COMBO(caps_word,   &capsword,        LB1 RB1,    BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
-ZMK_COMBO(caps_lock,   &kp CAPSLOCK,     LB2 RB2,    BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(capsword,   &caps_word,        LB1 RB1,    BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(capslock,   &kp CAPSLOCK,     LB2 RB2,    BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 
 // Homerow same side combos, 8 arg version
 ZMK_COMBO(parens_open, &kp LPAR,        LB1 LB2,    BASE, COMBO_TERM_FAST,  COMBO_IDLE_FAST,  LS(LGUI), KEYS_R)
