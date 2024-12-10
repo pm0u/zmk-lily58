@@ -1,9 +1,8 @@
 draw_config:
   key_w: 60.0
-  key_h: 56.0
-  split_gap: 30.0
+  key_h: 61.0
   combo_w: 28.0
-  combo_h: 26.0
+  combo_h: 30.0
   key_rx: 6.0
   key_ry: 6.0
   dark_mode: false
@@ -16,21 +15,21 @@ draw_config:
   outer_pad_h: 56.0
   line_spacing: 1.2
   arc_radius: 6.0
-  append_colon_to_layer_header: true
+  append_colon_to_layer_header: false
   small_pad: 2.0
   legend_rel_x: 0.0
   legend_rel_y: 0.0
-  draw_key_sides: false
+  draw_key_sides: true
   key_side_pars:
     rel_x: 0
-    rel_y: 4
-    rel_w: 12
-    rel_h: 12
+    rel_y: 2
+    rel_w: 6
+    rel_h: 6
     rx: 4
     ry: 4
-  svg_extra_style: ""
+  svg_extra_style: "svg.keymap { color: #3c3836; ;font-family: 'JetBrains Mono'; }"
   footer_text: ""
-  shrink_wide_legends: 7
+  shrink_wide_legends: 5
   style_layer_activators: true
   glyph_tap_size: 14
   glyph_hold_size: 12
@@ -44,20 +43,20 @@ parse_config:
   toggle_label: toggle
   tap_toggle_label: tap-toggle
   trans_legend:
-    t: ▽
+    t: ""
     type: trans
   layer_legend_map: {}
   mark_alternate_layer_activators: false
   modifier_fn_map:
-    left_ctrl: Ctl
-    right_ctrl: Ctl
-    left_shift: Sft
-    right_shift: Sft
-    left_alt: Alt
-    right_alt: AGr
-    left_gui: Gui
-    right_gui: Gui
-    keycode_combiner: "{mods}+ {key}"
+    left_ctrl: ^
+    right_ctrl: ^
+    left_shift: ⇧
+    right_shift: ⇧
+    left_alt: ⎇
+    right_alt: ⎇
+    left_gui: ⌘
+    right_gui: ⌘
+    keycode_combiner: "{mods}+{key}"
     mod_combiner: "{mod_1}+{mod_2}"
     special_combinations:
       left_ctrl+left_alt+left_gui+left_shift: Hyper
@@ -153,17 +152,17 @@ parse_config:
     LPAR: (
     RIGHT_PARENTHESIS: )
     RPAR: )
-    EQUAL: "="
+    EQUAL: "+ ="
     PLUS: +
-    MINUS: "-"
+    MINUS: "- _"
     UNDERSCORE: _
     UNDER: _
-    SLASH: /
-    FSLH: /
+    SLASH: "? /"
+    FSLH: "? /"
     QUESTION: "?"
     QMARK: "?"
-    BACKSLASH: \
-    BSLH: \
+    BACKSLASH: "| \\"
+    BSLH: "| \\"
     PIPE: "|"
     NON_US_BACKSLASH: \
     PIPE2: "|"
@@ -171,34 +170,69 @@ parse_config:
     SEMICOLON: ;
     SEMI: ;
     COLON: ":"
-    SINGLE_QUOTE: "'"
-    SQT: "'"
-    APOSTROPHE: "'"
+    SINGLE_QUOTE: '" '''
+    SQT: '" '''
+    APOSTROPHE: '" '''
     APOS: "'"
     DOUBLE_QUOTES: '"'
     DQT: '"'
-    COMMA: ","
+    COMMA: "< ,"
     LESS_THAN: <
     LT: <
-    PERIOD: .
-    DOT: .
+    PERIOD: "> ."
+    DOT: "> ."
     GREATER_THAN: ">"
     GT: ">"
     LEFT_BRACKET: "["
-    LBKT: "["
+    LBKT: "{ ["
     LEFT_BRACE: "{"
     LBRC: "{"
     RIGHT_BRACKET: "]"
-    RBKT: "]"
+    RBKT: "} ]"
     RIGHT_BRACE: "}"
     RBRC: "}"
-    GRAVE: "`"
+    GRAVE: "~ `"
     TILDE: "~"
     NON_US_HASH: "#"
     NUHS: "#"
     TILDE2: "~"
+    LCTRL: Ctrl
+    RCTRL: Ctrl
+    LSHIFT: Shift
+    RSHIFT: Shift
+    LALT: Alt
+    RALT: Alt
+    LGUI: Gui
+    RGUI: Gui
+    DEL: ⌦
+    BACKSPACE: ⌫
+    RET: ⮐
+    ESC: ⓧ
+    TAB: ⇥
+    N1: "! 1"
+    N2: "@ 2"
+    N3: "# 3"
+    N4: "$ 4"
+    N5: "% 5"
+    N6: "^ 6"
+    N7: "& 7"
+    N8: "* 8"
+    N9: "( 9"
+    N0: ") 0"
+    KP_N1: "1"
+    KP_N2: "2"
+    KP_N3: "3"
+    KP_N4: "4"
+    KP_N5: "5"
+    KP_N6: "6"
+    KP_N7: "7"
+    KP_N8: "8"
+    KP_N9: "9"
+    KP_N0: "0"
   zmk_combos:
-    {}
-    # - { p: [28, 31], k: CapsWord, layers: ["nav"] }
+    {
+      "combo_capsword": { "align": "top", "offset": 0.25 },
+      "combo_capslock": { "align": "top", "offset": 0.95 },
+    }
   zmk_preamble: "#define KEYMAP_DRAWER"
   zmk_additional_includes: []
