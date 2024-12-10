@@ -26,15 +26,15 @@
 
 &mmv {
   acceleration-exponent = <2>;
-  time-to-max-speed-ms = <2000>;
+  time-to-max-speed-ms = <5000>;
   delay-ms = <0>;
-  trigger-period-ms = <16>;
+  trigger-period-ms = <12>;
 };
 
 
 &msc {
   acceleration-exponent = <2>;
-  time-to-max-speed-ms = <3000>;
+  time-to-max-speed-ms = <4000>;
   delay-ms = <0>;
-  trigger-period-ms = <16>;
+  trigger-period-ms = <12>;
 };
