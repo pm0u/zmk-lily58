@@ -59,6 +59,7 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
             bindings = <&kp LSHIFT>, <&kp CAPSLOCK>;
         };
         lpar: lpar {
+            compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             bindings = <&kp LPAR>;
         };
