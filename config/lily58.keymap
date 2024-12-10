@@ -42,7 +42,7 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
  * Needs to be established before the combos file
  */
 #define ZMK_COMBO_8(NAME, TAP, KEYPOS, LAYERS, COMBO_TERM, COMBO_IDLE, HOLD, SIDE) \
-    MAKE_HRM(hm_combo_ ## NAME, &kp, TAP, SIDE THUMBS) \
+    MAKE_HRM(hm_combo_ ## NAME, &kp, &kp, SIDE THUMBS) \
     ZMK_COMBO_6(NAME, &hm_combo_ ## NAME HOLD 0, KEYPOS, LAYERS, COMBO_TERM, COMBO_IDLE)
 
 #include "combos.dtsi"
@@ -62,35 +62,6 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
     
     combos {
         compatible = "zmk,combos";
-        // Caps
-        //combo_capsword {
-        //    timeout-ms = <50>;
-        //    // Shift on either side
-        //    key-positions = <28 31>;
-        //    bindings = <&caps_word>;
-        //    layers = <0>;
-        //    require-prior-idle-ms = <100>;
-        //};
-
-        //combo_capslock {
-        //    timeout-ms = <50>;
-        //    // middle home on either side
-        //    key-positions = <27 32>;
-        //    bindings = <&kp CAPSLOCK>;
-        //    layers = <0>;
-        //    require-prior-idle-ms = <100>;
-        //};
-        
-        // Symbols
-        //combo_parens_open {
-        //    timeout-ms = <50>;
-        //    // index + middle
-        //    key-positions = <27 28>;
-        //    bindings = <&kp LPAR>;
-        //    layers = <0>;
-        //    require-prior-idle-ms = <100>;
-        //};
-        
         combo_square_open {
             timeout-ms = <50>;
             // middle + ring
