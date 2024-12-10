@@ -46,6 +46,14 @@ parse_config:
       "&bt BT_SEL 2": { t: "bt 2" },
       "&bt BT_SEL 3": { t: "bt 3" },
       "&bt BT_SEL 4": { t: "bt 4" },
+      "&hmr RGUI K": { t: "K", h: "Gui" },
+      "&hmr RCTRL L": { t: "L", h: "Ctrl" },
+      "&hmr RALT SEMI": { t: ";", h: "Alt", s: ":" },
+      "&hmr RSHIFT J": { t: "J", h: "Shift" },
+      "&hml LGUI D": { t: "D", h: "Gui" },
+      "&hml LCTRL S": { t: "S", h: "Ctrl" },
+      "&hml LALT A": { t: "A", h: "Alt" },
+      "&hml LSHIFT F": { t: "F", h: "Shift" },
     }
   sticky_label: sticky
   toggle_label: toggle

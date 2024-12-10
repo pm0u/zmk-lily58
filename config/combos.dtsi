@@ -17,8 +17,51 @@
 ZMK_COMBO(capsword,   &caps_word,        LB1 RB1,    BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 ZMK_COMBO(capslock,   &kp CAPSLOCK,     LB2 RB2,    BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 
+// Define "behaviors" for HRM chord 
+ZMK_BEHAVIOR(lpar, tap_dance, 
+  // Should never trigger
+  tapping-term-ms = <1>
+  bindings = <&kp LPAR>
+)
+
+ZMK_BEHAVIOR(lbkt, tap_dance, 
+  // Should never trigger
+  tapping-term-ms = <1>
+  bindings = <&kp LBKT>
+)
+
+ZMK_BEHAVIOR(lbrc, tap_dance, 
+  // Should never trigger
+  tapping-term-ms = <1>
+  bindings = <&kp LS(LBKT)>
+)
+
+ZMK_BEHAVIOR(rpar, tap_dance, 
+  // Should never trigger
+  tapping-term-ms = <1>
+  bindings = <&kp RPAR>
+)
+
+ZMK_BEHAVIOR(rbkt, tap_dance, 
+  // Should never trigger
+  tapping-term-ms = <1>
+  bindings = <&kp RBKT>
+)
+
+ZMK_BEHAVIOR(rbrc, tap_dance, 
+  // Should never trigger
+  tapping-term-ms = <1>
+  bindings = <&kp RS(RBKT)>
+)
+
 // Homerow same side combos, 8 arg version
 // Second arg needs to be a behavior - not a &kp binding
-ZMK_COMBO(parens_open,  &lpar,          LB1 LB2,    BASE, COMBO_TERM_FAST,  COMBO_IDLE_FAST,  LS(LGUI),  KEYS_R)
-//ZMK_COMBO(square_open,  &kp LBKT,       LB2 LB3,    BASE, COMBO_TERM_FAST,  COMBO_IDLE_FAST,  LG(LCTRL), KEYS_R)
-//ZMK_COMBO(curly_open,   &kp LS(LBKT),   LB3 LB4,    BASE, COMBO_TERM_FAST,  COMBO_IDLE_FAST,  LC(LALT),  KEYS_R)
+// Left side
+ZMK_COMBO(parens_open,  &lpar,  LB1 LB2,    BASE, COMBO_TERM_FAST,  COMBO_IDLE_FAST,  LS(LGUI),  KEYS_R)
+ZMK_COMBO(square_open,  &lbkt,  LB2 LB3,    BASE, COMBO_TERM_FAST,  COMBO_IDLE_FAST,  LG(LCTRL), KEYS_R)
+ZMK_COMBO(curly_open,   &lbrc,  LB3 LB4,    BASE, COMBO_TERM_FAST,  COMBO_IDLE_FAST,  LC(LALT),  KEYS_R)
+
+// Right side
+ZMK_COMBO(parens_close,  &rpar,  RB1 RB2,    BASE, COMBO_TERM_FAST,  COMBO_IDLE_FAST,  RS(RGUI),  KEYS_L)
+ZMK_COMBO(square_close,  &rbkt,  RB2 RB3,    BASE, COMBO_TERM_FAST,  COMBO_IDLE_FAST,  RG(RCTRL), KEYS_L)
+ZMK_COMBO(curly_close,   &rbrc,  RB3 RB4,    BASE, COMBO_TERM_FAST,  COMBO_IDLE_FAST,  RC(RALT),  KEYS_L)
