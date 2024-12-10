@@ -477,40 +477,24 @@ svg.keymap { color: #3c3836; ;font-family: 'JetBrains Mono'; }</style>
 <text x="0" y="-2" class="key tap layer-activator">media</text>
 </a></g>
 <g class="combo combopos-0">
-<path d="M503,113 h-223 a6.0,6.0 0 0 0 -6.0,6.0 v20" class="combo"/>
-<path d="M503,113 h223 a6.0,6.0 0 0 1 6.0,6.0 v20" class="combo"/>
-<rect rx="6" ry="6" x="463" y="103" width="80" height="20" class="combo"/>
-<text x="503" y="113" class="combo tap"><tspan style="font-size: 62%">&amp;caps_w…</tspan></text>
-</g>
-<g class="combo combopos-1">
-<path d="M503,63 h-284 a6.0,6.0 0 0 0 -6.0,6.0 v63" class="combo"/>
-<path d="M503,63 h284 a6.0,6.0 0 0 1 6.0,6.0 v63" class="combo"/>
-<rect rx="6" ry="6" x="473" y="53" width="60" height="20" class="combo"/>
-<text x="503" y="63" class="combo tap"><tspan style="font-size: 62%">CAPSLOCK</tspan></text>
-</g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="234" y="141" width="20" height="30" class="combo"/>
-<text x="244" y="156" class="combo tap">(</text>
-</g>
-<g class="combo combopos-3">
 <rect rx="6" ry="6" x="173" y="141" width="20" height="30" class="combo"/>
 <text x="183" y="156" class="combo tap">[</text>
 <text x="183" y="143" class="combo shifted">{</text>
 </g>
-<g class="combo combopos-4">
+<g class="combo combopos-1">
 <rect rx="6" ry="6" x="112" y="153" width="20" height="30" class="combo"/>
 <text x="122" y="168" class="combo tap">⇧+[</text>
 </g>
-<g class="combo combopos-5">
+<g class="combo combopos-2">
 <rect rx="6" ry="6" x="752" y="141" width="20" height="30" class="combo"/>
 <text x="762" y="156" class="combo tap">)</text>
 </g>
-<g class="combo combopos-6">
+<g class="combo combopos-3">
 <rect rx="6" ry="6" x="814" y="141" width="20" height="30" class="combo"/>
 <text x="824" y="156" class="combo tap">]</text>
 <text x="824" y="143" class="combo shifted">}</text>
 </g>
-<g class="combo combopos-7">
+<g class="combo combopos-4">
 <rect rx="6" ry="6" x="874" y="153" width="20" height="30" class="combo"/>
 <text x="884" y="168" class="combo tap">⇧+]</text>
 </g>

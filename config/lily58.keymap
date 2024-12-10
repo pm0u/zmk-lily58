@@ -1,8 +1,8 @@
-/*
- * Copyright (c) 2020 The ZMK Contributors
- *
- * SPDX-License-Identifier: MIT
- */
+#include <behaviors.dtsi>
+// Wireless
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/mouse.h>
 
 // urob helpers
 #include <zmk-helpers/helper.h>
@@ -20,12 +20,7 @@
 #define MEDIA 4
 
 #include "combos.dtsi"
-#include "home-row-mods.dtsi"
-#include "mouse-keys.dtsi"
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
+#include "mouse.dtsi"
 
 #define ___ &trans
 
