@@ -22,9 +22,9 @@ draw_config:
   draw_key_sides: true
   key_side_pars:
     rel_x: 0
-    rel_y: 4
+    rel_y: 6
     rel_w: 6
-    rel_h: 8
+    rel_h: 12
     rx: 4
     ry: 4
   svg_extra_style: "svg.keymap { color: #3c3836; ;font-family: 'JetBrains Mono'; }"
