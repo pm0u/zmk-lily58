@@ -1,7 +1,7 @@
 draw_config:
   key_w: 60.0
   key_h: 61.0
-  combo_w: 28.0
+  combo_w: 20.0
   combo_h: 30.0
   key_rx: 6.0
   key_ry: 6.0
@@ -18,13 +18,13 @@ draw_config:
   append_colon_to_layer_header: false
   small_pad: 2.0
   legend_rel_x: 0.0
-  legend_rel_y: 0.0
+  legend_rel_y: 2.0
   draw_key_sides: true
   key_side_pars:
     rel_x: 0
-    rel_y: 2
+    rel_y: 4
     rel_w: 6
-    rel_h: 6
+    rel_h: 8
     rx: 4
     ry: 4
   svg_extra_style: "svg.keymap { color: #3c3836; ;font-family: 'JetBrains Mono'; }"
@@ -38,7 +38,15 @@ draw_config:
 parse_config:
   preprocess: true
   skip_binding_parsing: false
-  raw_binding_map: {}
+  raw_binding_map:
+    {
+      "&capsdance": "$$mdi:apple-keyboard-caps$$",
+      "&bt BT_SEL 0": { t: "bt 0" },
+      "&bt BT_SEL 1": { t: "bt 1" },
+      "&bt BT_SEL 2": { t: "bt 2" },
+      "&bt BT_SEL 3": { t: "bt 3" },
+      "&bt BT_SEL 4": { t: "bt 4" },
+    }
   sticky_label: sticky
   toggle_label: toggle
   tap_toggle_label: tap-toggle
@@ -152,17 +160,27 @@ parse_config:
     LPAR: (
     RIGHT_PARENTHESIS: )
     RPAR: )
-    EQUAL: "+ ="
+    EQUAL:
+      s: "+"
+      t: "="
     PLUS: +
-    MINUS: "- _"
+    MINUS:
+      t: "-"
+      s: "_"
     UNDERSCORE: _
     UNDER: _
-    SLASH: "? /"
-    FSLH: "? /"
+    SLASH:
+      s: "?"
+      t: "/"
+    FSLH:
+      s: "?"
+      t: "/"
     QUESTION: "?"
     QMARK: "?"
     BACKSLASH: "| \\"
-    BSLH: "| \\"
+    BSLH:
+      s: "|"
+      t: "\\"
     PIPE: "|"
     NON_US_BACKSLASH: \
     PIPE2: "|"
@@ -170,28 +188,42 @@ parse_config:
     SEMICOLON: ;
     SEMI: ;
     COLON: ":"
-    SINGLE_QUOTE: '" '''
-    SQT: '" '''
-    APOSTROPHE: '" '''
+    SINGLE_QUOTE:
+      s: '"'
+      t: "'"
+    SQT:
+      s: '"'
+      t: "'"
+    APOSTROPHE: "'"
     APOS: "'"
     DOUBLE_QUOTES: '"'
     DQT: '"'
-    COMMA: "< ,"
+    COMMA:
+      s: "<"
+      t: ","
     LESS_THAN: <
     LT: <
     PERIOD: "> ."
-    DOT: "> ."
+    DOT:
+      s: ">"
+      t: "."
     GREATER_THAN: ">"
     GT: ">"
     LEFT_BRACKET: "["
-    LBKT: "{ ["
+    LBKT:
+      s: "{"
+      t: "["
     LEFT_BRACE: "{"
     LBRC: "{"
     RIGHT_BRACKET: "]"
-    RBKT: "} ]"
+    RBKT:
+      s: "}"
+      t: "]"
     RIGHT_BRACE: "}"
     RBRC: "}"
-    GRAVE: "~ `"
+    GRAVE:
+      s: "~"
+      t: "`"
     TILDE: "~"
     NON_US_HASH: "#"
     NUHS: "#"
@@ -207,18 +239,38 @@ parse_config:
     DEL: ⌦
     BACKSPACE: ⌫
     RET: ⮐
-    ESC: ⓧ
+    ESC: "$$mdi:location-exit$$"
     TAB: ⇥
-    N1: "! 1"
-    N2: "@ 2"
-    N3: "# 3"
-    N4: "$ 4"
-    N5: "% 5"
-    N6: "^ 6"
-    N7: "& 7"
-    N8: "* 8"
-    N9: "( 9"
-    N0: ") 0"
+    N1:
+      s: "!"
+      t: "1"
+    N2:
+      s: "@"
+      t: 2
+    N3:
+      s: "#"
+      t: 3
+    N4:
+      s: "$"
+      t: 4
+    N5:
+      s: "%"
+      t: 5
+    N6:
+      s: "^"
+      t: 6
+    N7:
+      s: "&"
+      t: 7
+    N8:
+      s: "*"
+      t: 8
+    N9:
+      s: (
+      t: 9
+    N0:
+      s: ")"
+      t: "0"
     KP_N1: "1"
     KP_N2: "2"
     KP_N3: "3"
@@ -229,10 +281,19 @@ parse_config:
     KP_N8: "8"
     KP_N9: "9"
     KP_N0: "0"
+    SPACE: ␣
+    C_VOLUME_UP: "$$mdi:volume-plus$$"
+    C_VOLUME_DOWN: "$$mdi:volume-minus$$"
+    C_MUTE: "$$mdi:volume-off$$"
+    C_NEXT: "$$mdi:skip-next$$"
+    C_PREV: "$$mdi:skip-previous$$"
+    C_PLAY_PAUSE: "$$mdi:play-pause$$"
   zmk_combos:
     {
-      "combo_capsword": { "align": "top", "offset": 0.25 },
-      "combo_capslock": { "align": "top", "offset": 0.95 },
+      "combo_capsword":
+        { "align": "top", "offset": 0.25, width: 80.0, height: 20.0 },
+      "combo_capslock":
+        { "align": "top", "offset": 0.95, width: 60.0, height: 20.0 },
     }
   zmk_preamble: "#define KEYMAP_DRAWER"
   zmk_additional_includes: []
