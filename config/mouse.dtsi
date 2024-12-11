@@ -1,7 +1,7 @@
 // Default 600
-#define ZMK_MOUSE_DEFAULT_MOVE_VAL 7000
+#define ZMK_MOUSE_DEFAULT_MOVE_VAL 6000
 // Default 10
-#define ZMK_MOUSE_DEFAULT_SCRL_VAL 80
+#define ZMK_MOUSE_DEFAULT_SCRL_VAL 100
 
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors/mouse_move.dtsi>
@@ -19,15 +19,14 @@
 
 &mmv {
   acceleration-exponent = <2>;
-  time-to-max-speed-ms = <1000>;
+  time-to-max-speed-ms = <800>;
   delay-ms = <0>;
   trigger-period-ms = <12>;
 };
 
-
 &msc {
   acceleration-exponent = <2>;
-  time-to-max-speed-ms = <3000>;
+  time-to-max-speed-ms = <2000>;
   delay-ms = <0>;
   trigger-period-ms = <12>;
 };
