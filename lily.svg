@@ -3,6 +3,18 @@
 <svg id="mdi:apple-keyboard-caps">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-caps" viewBox="0 0 24 24"><path d="M15,14V8H17.17L12,2.83L6.83,8H9V14H15M12,0L22,10H17V16H7V10H2L12,0M7,18H17V24H7V18M15,20H9V22H15V20Z" /></svg>
 </svg>
+<svg id="mdi:arrow-down">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-down" viewBox="0 0 24 24"><path d="M11,4H13V16L18.5,10.5L19.92,11.92L12,19.84L4.08,11.92L5.5,10.5L11,16V4Z" /></svg>
+</svg>
+<svg id="mdi:arrow-left">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-left" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+</svg>
+<svg id="mdi:arrow-right">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-right" viewBox="0 0 24 24"><path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" /></svg>
+</svg>
+<svg id="mdi:arrow-up">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-up" viewBox="0 0 24 24"><path d="M13,20H11V8L5.5,13.5L4.08,12.08L12,4.16L19.92,12.08L18.5,13.5L13,8V20Z" /></svg>
+</svg>
 <svg id="mdi:location-exit">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-location-exit" viewBox="0 0 24 24"><path d="M22 12L18 8V11H10V13H18V16M20 18A10 10 0 1 1 20 6H17.27A8 8 0 1 0 17.27 18Z" /></svg>
 </svg>
@@ -606,22 +618,22 @@ svg.keymap { color: #3c3836; ;font-family: 'JetBrains Mono'; }</style>
 <g transform="translate(671, 168)" class="key keypos-30">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
-<text x="0" y="-4" class="key tap">LEFT</text>
+<use href="#mdi:arrow-left" xlink:href="#mdi:arrow-left" x="-7" y="-11" height="14" width="14.0" class="key tap glyph mdi:arrow-left"/>
 </g>
 <g transform="translate(732, 160)" class="key keypos-31">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
-<text x="0" y="-4" class="key tap">DOWN</text>
+<use href="#mdi:arrow-down" xlink:href="#mdi:arrow-down" x="-7" y="-11" height="14" width="14.0" class="key tap glyph mdi:arrow-down"/>
 </g>
 <g transform="translate(793, 152)" class="key keypos-32">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
-<text x="0" y="-4" class="key tap">UP</text>
+<use href="#mdi:arrow-up" xlink:href="#mdi:arrow-up" x="-7" y="-11" height="14" width="14.0" class="key tap glyph mdi:arrow-up"/>
 </g>
 <g transform="translate(854, 160)" class="key keypos-33">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
-<text x="0" y="-4" class="key tap">RIGHT</text>
+<use href="#mdi:arrow-right" xlink:href="#mdi:arrow-right" x="-7" y="-11" height="14" width="14.0" class="key tap glyph mdi:arrow-right"/>
 </g>
 <g transform="translate(915, 175)" class="key keypos-34">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>

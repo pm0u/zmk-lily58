@@ -36,6 +36,9 @@ draw_config:
   glyph_shifted_size: 10
   glyphs: {}
 parse_config:
+  zmk_preamble: "#include <zmk-helpers/key-labels/lily58.h>"
+  zmk_additional_includes:
+    - "modules/helpers/include"
   preprocess: true
   skip_binding_parsing: false
   raw_binding_map:
@@ -296,6 +299,10 @@ parse_config:
     C_NEXT: "$$mdi:skip-next$$"
     C_PREV: "$$mdi:skip-previous$$"
     C_PLAY_PAUSE: "$$mdi:play-pause$$"
+    LEFT: "$$mdi:arrow-left$$"
+    UP: "$$mdi:arrow-up$$"
+    DOWN: "$$mdi:arrow-down$$"
+    RIGHT: "$$mdi:arrow-right$$"
   zmk_combos:
     {
       "combo_capsword":
@@ -303,5 +310,3 @@ parse_config:
       "combo_capslock":
         { "align": "top", "offset": 0.95, width: 60.0, height: 20.0 },
     }
-  zmk_preamble: "#define KEYMAP_DRAWER"
-  zmk_additional_includes: []
