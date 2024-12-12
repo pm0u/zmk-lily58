@@ -28,44 +28,44 @@
 #define COMBO_IDLE_SLOW 50
 
 // Caps
-// .      name,       combo_bindings,   keypos,     combo_layers,   timeout-ms,       require-prior-idle-ms
+//        name,       combo_bindings,   keypos,     combo_layers,   timeout-ms,       require-prior-idle-ms
 ZMK_COMBO(capsword,   &caps_word,       LB1 RB1,    BASE,           COMBO_TERM_FAST,  COMBO_IDLE_FAST)
 ZMK_COMBO(capslock,   &kp CAPSLOCK,     LB2 RB2,    BASE,           COMBO_TERM_FAST,  COMBO_IDLE_FAST)
 
 // Define "behaviors" for HRM chord 
 ZMK_BEHAVIOR(lpar, tap_dance, 
   // Should never trigger
-  tapping-term-ms = <-1>;
+  tapping-term-ms = <1>;
   bindings = <&kp LPAR>;
 )
 
 ZMK_BEHAVIOR(lbkt, tap_dance, 
   // Should never trigger
-  tapping-term-ms = <-1>;
+  tapping-term-ms = <1>;
   bindings = <&kp LBKT>;
 )
 
 ZMK_BEHAVIOR(lbrc, tap_dance, 
   // Should never trigger
-  tapping-term-ms = <-1>;
+  tapping-term-ms = <1>;
   bindings = <&kp LS(LBKT)>;
 )
 
 ZMK_BEHAVIOR(rpar, tap_dance, 
   // Should never trigger
-  tapping-term-ms = <-1>;
+  tapping-term-ms = <1>;
   bindings = <&kp RPAR>;
 )
 
 ZMK_BEHAVIOR(rbkt, tap_dance, 
   // Should never trigger
-  tapping-term-ms = <-1>;
+  tapping-term-ms = <1>;
   bindings = <&kp RBKT>;
 )
 
 ZMK_BEHAVIOR(rbrc, tap_dance, 
   // Should never trigger
-  tapping-term-ms = <-1>;
+  tapping-term-ms = <1>;
   bindings = <&kp RS(RBKT)>;
 )
 
