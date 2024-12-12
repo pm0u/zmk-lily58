@@ -32,7 +32,7 @@
 ZMK_COMBO(capsword,   &caps_word,       LB1 RB1,    BASE,           COMBO_TERM_FAST,  COMBO_IDLE_FAST)
 ZMK_COMBO(capslock,   &kp CAPSLOCK,     LB2 RB2,    BASE,           COMBO_TERM_FAST,  COMBO_IDLE_FAST)
 
- Define "behaviors" for HRM chord 
+// Define "behaviors" for HRM chord 
 ZMK_BEHAVIOR(lpar, tap_dance, 
   // Should never trigger
   tapping-term-ms = <-1>;
