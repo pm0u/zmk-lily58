@@ -39,34 +39,10 @@ ZMK_BEHAVIOR(lpar, tap_dance,
   bindings = <&kp LPAR>;
 )
 
-ZMK_BEHAVIOR(lbkt, tap_dance, 
-  // Should never trigger
-  tapping-term-ms = <0>;
-  bindings = <&kp LBKT>;
-)
-
-ZMK_BEHAVIOR(lbrc, tap_dance, 
-  // Should never trigger
-  tapping-term-ms = <0>;
-  bindings = <&kp LS(LBKT)>;
-)
-
 ZMK_BEHAVIOR(rpar, tap_dance, 
   // Should never trigger
   tapping-term-ms = <0>;
   bindings = <&kp RPAR>;
-)
-
-ZMK_BEHAVIOR(rbkt, tap_dance, 
-  // Should never trigger
-  tapping-term-ms = <0>;
-  bindings = <&kp RBKT>;
-)
-
-ZMK_BEHAVIOR(rbrc, tap_dance, 
-  // Should never trigger
-  tapping-term-ms = <0>;
-  bindings = <&kp RS(RBKT)>;
 )
 
 // Left side
@@ -83,8 +59,8 @@ ZMK_COMBO(lbrc,  &kp LBRC,     RM1 RM2,     BASE, COMBO_TERM_FAST, COMBO_IDLE_FA
 ZMK_COMBO(rbrc,  &kp RBRC,     RM2 RM3,     BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 
 // home row ()
-ZMK_COMBO(lpar,  &lpar_lt,     RB1 RB2,     BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST, RS(RGUI),    KEYS_L)
-ZMK_COMBO(rpar,  &rpar_gt,     RB2 RB3,     BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST, RS(RCTRL),   KEYS_L)
+ZMK_COMBO(lpar,  &lpar,     RB1 RB2,     BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST, RS(RGUI),    KEYS_L)
+ZMK_COMBO(rpar,  &rpar,     RB2 RB3,     BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST, RS(RCTRL),   KEYS_L)
 
 // bottom row []
 ZMK_COMBO(lbkt,  &kp LBKT,     RF1 RF2,     BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
