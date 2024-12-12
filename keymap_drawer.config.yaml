@@ -43,6 +43,7 @@ parse_config:
   raw_binding_map:
     {
       "&capsdance": "$$mdi:apple-keyboard-caps$$",
+      "&caps_word": "CAPSWORD",
       "&bt BT_SEL 0": { t: "bt 0" },
       "&bt BT_SEL 1": { t: "bt 1" },
       "&bt BT_SEL 2": { t: "bt 2" },
@@ -302,7 +303,6 @@ parse_config:
     UP: "$$mdi:arrow-up$$"
     DOWN: "$$mdi:arrow-down$$"
     RIGHT: "$$mdi:arrow-right$$"
-    CAPSLOCK: "$$mdi:caps-lock$$"
   zmk_combos:
     {
       "combo_capsword":
