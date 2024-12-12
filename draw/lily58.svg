@@ -507,12 +507,12 @@ svg.keymap { color: #3c3836; ;font-family: 'JetBrains Mono'; }</style>
 </g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="752" y="141" width="20" height="30" class="combo"/>
-<text x="762" y="156" class="combo tap"><tspan style="font-size: 62%">&amp;lpar_lt</tspan></text>
+<text x="762" y="156" class="combo tap">&amp;lpar</text>
 <text x="762" y="169" class="combo hold">⇧+Gui</text>
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="814" y="141" width="20" height="30" class="combo"/>
-<text x="824" y="156" class="combo tap"><tspan style="font-size: 62%">&amp;rpar_gt</tspan></text>
+<text x="824" y="156" class="combo tap">&amp;rpar</text>
 <text x="824" y="169" class="combo hold"><tspan style="font-size: 83%">⇧+Ctrl</tspan></text>
 </g>
 <g class="combo combopos-9">

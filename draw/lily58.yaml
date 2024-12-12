@@ -326,10 +326,10 @@ combos:
   k: '}'
   l: [base]
 - p: [31, 32]
-  k: {t: '&lpar_lt', h: ⇧+Gui}
+  k: {t: '&lpar', h: ⇧+Gui}
   l: [base]
 - p: [32, 33]
-  k: {t: '&rpar_gt', h: ⇧+Ctrl}
+  k: {t: '&rpar', h: ⇧+Ctrl}
   l: [base]
 - p: [45, 46]
   k: '['
