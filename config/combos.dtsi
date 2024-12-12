@@ -14,8 +14,8 @@
  * if too slow = false positives in rolls
  * if too fast = types out both letters instead
  */
-#define COMBO_TERM_FAST 25
-#define COMBO_TERM_SLOW 35
+#define COMBO_TERM_FAST 30
+#define COMBO_TERM_SLOW 40
 
 /**
  * maps to `require-prior-idle-ms`
