@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: lily58_rotated}
 layers:
   base:
-  - {t: '`', s: '~'}
+  - '`'
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -12,7 +12,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '-', s: _}
+  - _
   - ⇥
   - Q
   - W
@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - {t: '=', s: +}
+  - '='
   - $$mdi:location-exit$$
   - {t: A, h: Alt}
   - {t: S, h: Ctrl}
@@ -36,21 +36,21 @@ layers:
   - {t: K, h: Gui}
   - {t: L, h: Ctrl}
   - {t: ;, h: Alt, s: ':'}
-  - {t: '''', s: '"'}
+  - ''''
   - $$mdi:apple-keyboard-caps$$
   - Z
   - X
   - C
   - V
   - B
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - '['
+  - ']'
   - N
   - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - {t: \, s: '|'}
+  - ','
+  - .
+  - /
+  - \
   - mouse
   - nav
   - ⌦
@@ -207,7 +207,7 @@ layers:
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
-  - {t: '=', s: +}
+  - '='
   - {type: trans}
   - Shift
   - Gui
@@ -228,9 +228,9 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {t: '-', s: _}
+  - _
   - {t: '0', s: )}
-  - {t: ., s: '>'}
+  - .
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -332,10 +332,10 @@ combos:
   k: {t: '&rpar_gt', h: ⇧+Ctrl}
   l: [base]
 - p: [45, 46]
-  k: {t: '[', s: '{'}
+  k: '['
   l: [base]
 - p: [46, 47]
-  k: {t: ']', s: '}'}
+  k: ']'
   l: [base]
 - p: [26, 14]
   k: '@'
@@ -350,13 +350,13 @@ combos:
   k: '%'
   l: [base]
 - p: [38, 26]
-  k: {t: '`', s: '~'}
+  k: '`'
   l: [base]
 - p: [39, 27]
-  k: {t: \, s: '|'}
+  k: \
   l: [base]
 - p: [40, 28]
-  k: {t: '=', s: +}
+  k: '='
   l: [base]
 - p: [41, 29]
   k: '~'
@@ -380,8 +380,8 @@ combos:
   k: '|'
   l: [base]
 - p: [46, 32]
-  k: {t: /, s: '?'}
+  k: /
   l: [base]
 - p: [47, 33]
-  k: {t: '-', s: _}
+  k: _
   l: [base]

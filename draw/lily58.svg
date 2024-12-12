@@ -162,7 +162,6 @@ svg.keymap { color: #3c3836; ;font-family: 'JetBrains Mono'; }</style>
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
 <text x="0" y="-4" class="key tap">`</text>
-<text x="0" y="-26" class="key shifted">~</text>
 </g>
 <g transform="translate(92, 53)" class="key keypos-1">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
@@ -227,8 +226,7 @@ svg.keymap { color: #3c3836; ;font-family: 'JetBrains Mono'; }</style>
 <g transform="translate(976, 61)" class="key keypos-11">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
-<text x="0" y="-4" class="key tap">-</text>
-<text x="0" y="-26" class="key shifted">_</text>
+<text x="0" y="-4" class="key tap">_</text>
 </g>
 <g transform="translate(30, 122)" class="key keypos-12">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
@@ -289,7 +287,6 @@ svg.keymap { color: #3c3836; ;font-family: 'JetBrains Mono'; }</style>
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
 <text x="0" y="-4" class="key tap">=</text>
-<text x="0" y="-26" class="key shifted">+</text>
 </g>
 <g transform="translate(30, 183)" class="key keypos-24">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
@@ -359,7 +356,6 @@ svg.keymap { color: #3c3836; ;font-family: 'JetBrains Mono'; }</style>
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
 <text x="0" y="-4" class="key tap">&#x27;</text>
-<text x="0" y="-26" class="key shifted">&quot;</text>
 </g>
 <g transform="translate(30, 244)" class="key keypos-36">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
@@ -395,13 +391,11 @@ svg.keymap { color: #3c3836; ;font-family: 'JetBrains Mono'; }</style>
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
 <text x="0" y="-4" class="key tap">[</text>
-<text x="0" y="-26" class="key shifted">{</text>
 </g>
 <g transform="translate(610, 198)" class="key keypos-43">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
 <text x="0" y="-4" class="key tap">]</text>
-<text x="0" y="-26" class="key shifted">}</text>
 </g>
 <g transform="translate(671, 229)" class="key keypos-44">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
@@ -417,25 +411,21 @@ svg.keymap { color: #3c3836; ;font-family: 'JetBrains Mono'; }</style>
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
 <text x="0" y="-4" class="key tap">,</text>
-<text x="0" y="-26" class="key shifted">&lt;</text>
 </g>
 <g transform="translate(854, 221)" class="key keypos-47">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
 <text x="0" y="-4" class="key tap">.</text>
-<text x="0" y="-26" class="key shifted">&gt;</text>
 </g>
 <g transform="translate(915, 236)" class="key keypos-48">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
 <text x="0" y="-4" class="key tap">/</text>
-<text x="0" y="-26" class="key shifted">?</text>
 </g>
 <g transform="translate(976, 244)" class="key keypos-49">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
 <text x="0" y="-4" class="key tap">\</text>
-<text x="0" y="-26" class="key shifted">|</text>
 </g>
 <g transform="translate(183, 282)" class="key keypos-50">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
@@ -528,12 +518,10 @@ svg.keymap { color: #3c3836; ;font-family: 'JetBrains Mono'; }</style>
 <g class="combo combopos-9">
 <rect rx="6" ry="6" x="752" y="202" width="20" height="30" class="combo"/>
 <text x="762" y="217" class="combo tap">[</text>
-<text x="762" y="204" class="combo shifted">{</text>
 </g>
 <g class="combo combopos-10">
 <rect rx="6" ry="6" x="814" y="202" width="20" height="30" class="combo"/>
 <text x="824" y="217" class="combo tap">]</text>
-<text x="824" y="204" class="combo shifted">}</text>
 </g>
 <g class="combo combopos-11">
 <rect rx="6" ry="6" x="142" y="115" width="20" height="30" class="combo"/>
@@ -554,17 +542,14 @@ svg.keymap { color: #3c3836; ;font-family: 'JetBrains Mono'; }</style>
 <g class="combo combopos-15">
 <rect rx="6" ry="6" x="142" y="176" width="20" height="30" class="combo"/>
 <text x="152" y="191" class="combo tap">`</text>
-<text x="152" y="178" class="combo shifted">~</text>
 </g>
 <g class="combo combopos-16">
 <rect rx="6" ry="6" x="204" y="168" width="20" height="30" class="combo"/>
 <text x="214" y="183" class="combo tap">\</text>
-<text x="214" y="170" class="combo shifted">|</text>
 </g>
 <g class="combo combopos-17">
 <rect rx="6" ry="6" x="264" y="176" width="20" height="30" class="combo"/>
 <text x="274" y="191" class="combo tap">=</text>
-<text x="274" y="178" class="combo shifted">+</text>
 </g>
 <g class="combo combopos-18">
 <rect rx="6" ry="6" x="326" y="183" width="20" height="30" class="combo"/>
@@ -597,12 +582,10 @@ svg.keymap { color: #3c3836; ;font-family: 'JetBrains Mono'; }</style>
 <g class="combo combopos-25">
 <rect rx="6" ry="6" x="783" y="168" width="20" height="30" class="combo"/>
 <text x="793" y="183" class="combo tap">/</text>
-<text x="793" y="170" class="combo shifted">?</text>
 </g>
 <g class="combo combopos-26">
 <rect rx="6" ry="6" x="844" y="176" width="20" height="30" class="combo"/>
-<text x="854" y="191" class="combo tap">-</text>
-<text x="854" y="178" class="combo shifted">_</text>
+<text x="854" y="191" class="combo tap">_</text>
 </g>
 </g>
 </g>
@@ -1280,7 +1263,6 @@ svg.keymap { color: #3c3836; ;font-family: 'JetBrains Mono'; }</style>
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
 <text x="0" y="-4" class="key tap">=</text>
-<text x="0" y="-26" class="key shifted">+</text>
 </g>
 <g transform="translate(671, 168)" class="key trans keypos-30">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
@@ -1375,8 +1357,7 @@ svg.keymap { color: #3c3836; ;font-family: 'JetBrains Mono'; }</style>
 <g transform="translate(183, 282)" class="key keypos-50">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
-<text x="0" y="-4" class="key tap">-</text>
-<text x="0" y="-26" class="key shifted">_</text>
+<text x="0" y="-4" class="key tap">_</text>
 </g>
 <g transform="translate(244, 284)" class="key keypos-51">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
@@ -1388,7 +1369,6 @@ svg.keymap { color: #3c3836; ;font-family: 'JetBrains Mono'; }</style>
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
 <text x="0" y="-4" class="key tap">.</text>
-<text x="0" y="-26" class="key shifted">&gt;</text>
 </g>
 <g transform="translate(381, 290) rotate(30.0)" class="key trans keypos-53">
 <rect rx="6" ry="6" x="-28" y="-44" width="57" height="88" class="key trans side"/>
