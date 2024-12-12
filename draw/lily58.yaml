@@ -1,0 +1,378 @@
+layout: {qmk_keyboard: lily58_rotated}
+layers:
+  base:
+  - {t: '`', s: '~'}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: '-', s: _}
+  - ⇥
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: '=', s: +}
+  - $$mdi:location-exit$$
+  - {t: A, h: Alt}
+  - {t: S, h: Ctrl}
+  - {t: D, h: Gui}
+  - {t: F, h: Shift}
+  - G
+  - H
+  - {t: J, h: Shift}
+  - {t: K, h: Gui}
+  - {t: L, h: Ctrl}
+  - {t: ;, h: Alt, s: ':'}
+  - {t: '''', s: '"'}
+  - $$mdi:apple-keyboard-caps$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - {t: \, s: '|'}
+  - mouse
+  - nav
+  - ⌦
+  - ␣
+  - ⮐
+  - ⌫
+  - num
+  - media
+  nav:
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - ^+⇧+Z
+  - ^+V
+  - ^+C
+  - ^+X
+  - ^+Z
+  - {type: trans}
+  - {type: trans}
+  - Alt
+  - Ctrl
+  - Gui
+  - Shift
+  - {type: trans}
+  - $$mdi:arrow-left$$
+  - $$mdi:arrow-down$$
+  - $$mdi:arrow-up$$
+  - $$mdi:arrow-right$$
+  - CAPSLOCK
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - HOME
+  - PAGE DOWN
+  - PAGE UP
+  - END
+  - INSERT
+  - {type: trans}
+  - {type: trans}
+  - {type: held}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  mouse:
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - ^+⇧+Z
+  - ^+V
+  - ^+C
+  - ^+X
+  - ^+Z
+  - {type: trans}
+  - {type: trans}
+  - Alt
+  - Ctrl
+  - Gui
+  - Shift
+  - {type: trans}
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_RIGHT'
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_RIGHT'
+  - {type: trans}
+  - {type: trans}
+  - {type: held}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB3'
+  - {type: trans}
+  num:
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - {t: '=', s: +}
+  - {type: trans}
+  - Shift
+  - Gui
+  - Ctrl
+  - Alt
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {t: '-', s: _}
+  - {t: '0', s: )}
+  - {t: ., s: '>'}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: held}
+  - {type: trans}
+  media:
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - $$mdi:volume-off$$
+  - $$mdi:volume-minus$$
+  - $$mdi:volume-plus$$
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - $$mdi:skip-previous$$
+  - $$mdi:play-pause$$
+  - $$mdi:skip-next$$
+  - {type: trans}
+  - {type: trans}
+  - Shift
+  - Gui
+  - Ctrl
+  - Alt
+  - {type: trans}
+  - bt 4
+  - bt 3
+  - bt 2
+  - bt 1
+  - bt 0
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: held}
+combos:
+- p: [28, 31]
+  k: CAPSWORD
+  l: [base]
+  a: top
+  o: 0.25
+  w: 80.0
+  h: 20.0
+- p: [27, 32]
+  k: CAPSLOCK
+  l: [base]
+  a: top
+  o: 0.95
+  w: 60.0
+  h: 20.0
+- p: [28, 27]
+  k: {t: '&lpar', h: ⇧+Gui}
+  l: [base]
+- p: [27, 26]
+  k: {t: '&lbkt', h: ⌘+Ctrl}
+  l: [base]
+- p: [26, 25]
+  k: {t: '&lbrc', h: ^+Alt}
+  l: [base]
+- p: [31, 32]
+  k: {t: '&rpar', h: ⇧+Gui}
+  l: [base]
+- p: [32, 33]
+  k: {t: '&rbkt', h: ⌘+Ctrl}
+  l: [base]
+- p: [33, 34]
+  k: {t: '&rbrc', h: ^+Alt}
+  l: [base]
+- p: [26, 14]
+  k: '@'
+  l: [base]
+- p: [27, 15]
+  k: '#'
+  l: [base]
+- p: [28, 16]
+  k: $
+  l: [base]
+- p: [29, 17]
+  k: '%'
+  l: [base]
+- p: [38, 26]
+  k: {t: '`', s: '~'}
+  l: [base]
+- p: [39, 27]
+  k: {t: \, s: '|'}
+  l: [base]
+- p: [40, 28]
+  k: {t: '=', s: +}
+  l: [base]
+- p: [41, 29]
+  k: '~'
+  l: [base]
+- p: [30, 18]
+  k: ^
+  l: [base]
+- p: [31, 19]
+  k: +
+  l: [base]
+- p: [32, 20]
+  k: '*'
+  l: [base]
+- p: [33, 21]
+  k: '&'
+  l: [base]
+- p: [44, 30]
+  k: _
+  l: [base]
+- p: [45, 31]
+  k: {t: '-', s: _}
+  l: [base]
+- p: [46, 32]
+  k: {t: /, s: '?'}
+  l: [base]
+- p: [47, 33]
+  k: '|'
+  l: [base]
