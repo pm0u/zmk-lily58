@@ -171,27 +171,17 @@ parse_config:
     LPAR: (
     RIGHT_PARENTHESIS: )
     RPAR: )
-    EQUAL:
-      s: "+"
-      t: "="
+    EQUAL: "="
     PLUS: +
-    MINUS:
-      t: "-"
-      s: "_"
+    MINUS: "_"
     UNDERSCORE: _
     UNDER: _
-    SLASH:
-      s: "?"
-      t: "/"
-    FSLH:
-      s: "?"
-      t: "/"
+    SLASH: "/"
+    FSLH: "/"
     QUESTION: "?"
     QMARK: "?"
-    BACKSLASH: "| \\"
-    BSLH:
-      s: "|"
-      t: "\\"
+    BACKSLASH: "\\"
+    BSLH: "\\"
     PIPE: "|"
     NON_US_BACKSLASH: \
     PIPE2: "|"
@@ -199,42 +189,28 @@ parse_config:
     SEMICOLON: ;
     SEMI: ;
     COLON: ":"
-    SINGLE_QUOTE:
-      s: '"'
-      t: "'"
-    SQT:
-      s: '"'
-      t: "'"
+    SINGLE_QUOTE: "'"
+    SQT: "'"
     APOSTROPHE: "'"
     APOS: "'"
     DOUBLE_QUOTES: '"'
     DQT: '"'
-    COMMA:
-      s: "<"
-      t: ","
+    COMMA: ","
     LESS_THAN: <
     LT: <
-    PERIOD: "> ."
-    DOT:
-      s: ">"
-      t: "."
+    PERIOD: "."
+    DOT: "."
     GREATER_THAN: ">"
     GT: ">"
     LEFT_BRACKET: "["
-    LBKT:
-      s: "{"
-      t: "["
+    LBKT: "["
     LEFT_BRACE: "{"
     LBRC: "{"
     RIGHT_BRACKET: "]"
-    RBKT:
-      s: "}"
-      t: "]"
+    RBKT: "]"
     RIGHT_BRACE: "}"
     RBRC: "}"
-    GRAVE:
-      s: "~"
-      t: "`"
+    GRAVE: "`"
     TILDE: "~"
     NON_US_HASH: "#"
     NUHS: "#"
