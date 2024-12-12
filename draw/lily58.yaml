@@ -310,23 +310,32 @@ combos:
   o: 0.95
   w: 60.0
   h: 20.0
-- p: [28, 27]
-  k: {t: '&lpar', h: ⇧+Gui}
+- p: [38, 40]
+  k: ^+X
   l: [base]
-- p: [27, 26]
-  k: {t: '&lbkt', h: ⌘+Ctrl}
+- p: [38, 39]
+  k: ^+C
   l: [base]
-- p: [26, 25]
-  k: {t: '&lbrc', h: ^+Alt}
+- p: [39, 40]
+  k: ^+V
+  l: [base]
+- p: [19, 20]
+  k: '{'
+  l: [base]
+- p: [20, 21]
+  k: '}'
   l: [base]
 - p: [31, 32]
-  k: {t: '&rpar', h: ⇧+Gui}
+  k: {t: '&lpar_lt', h: ⇧+Gui}
   l: [base]
 - p: [32, 33]
-  k: {t: '&rbkt', h: ⌘+Ctrl}
+  k: {t: '&rpar_gt', h: ⇧+Ctrl}
   l: [base]
-- p: [33, 34]
-  k: {t: '&rbrc', h: ^+Alt}
+- p: [45, 46]
+  k: {t: '[', s: '{'}
+  l: [base]
+- p: [46, 47]
+  k: {t: ']', s: '}'}
   l: [base]
 - p: [26, 14]
   k: '@'
