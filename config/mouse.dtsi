@@ -1,7 +1,7 @@
 // Default 600
-#define ZMK_MOUSE_DEFAULT_MOVE_VAL 6000
+#define ZMK_MOUSE_DEFAULT_MOVE_VAL 8000
 // Default 10
-#define ZMK_MOUSE_DEFAULT_SCRL_VAL 90
+#define ZMK_MOUSE_DEFAULT_SCRL_VAL 120
 
 #include <dt-bindings/zmk/pointing.h>
 
@@ -20,12 +20,12 @@
   acceleration-exponent = <2>;
   time-to-max-speed-ms = <800>;
   delay-ms = <0>;
-  trigger-period-ms = <12>;
+  trigger-period-ms = <8>;
 };
 
 &msc {
   acceleration-exponent = <2>;
   time-to-max-speed-ms = <1000>;
   delay-ms = <0>;
-  trigger-period-ms = <12>;
+  trigger-period-ms = <8>;
 };
