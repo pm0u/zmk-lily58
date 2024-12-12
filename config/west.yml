@@ -2,17 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: pm0u
-      url-base: https://github.com/pm0u
     - name: urob
       url-base: https://github.com/urob
   projects:
-    #- name: zmk
-    #  remote: zmkfirmware
-    # More up to date branch of the mouse PR
     - name: zmk
-      remote: pm0u
-      revision: feat/pointers-move-scroll
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
     - name: zmk-helpers
       remote: urob
