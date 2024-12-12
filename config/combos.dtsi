@@ -7,50 +7,65 @@
   ╰───────────╮ LH3 LH2 LH1 LH0 │ RH0 RH1 RH2 RH3 ╭───────────╯
               ╰─────────────────┴─────────────────╯             */
 
-#define COMBO_TERM_FAST 15
-#define COMBO_TERM_SLOW 30
+/*
+ * maps to `timeout-ms`
+ * Keys must be both pressed within this time
+ *
+ * if too slow = false positives in rolls
+ * if too fast = types out both letters instead
+ */
+#define COMBO_TERM_FAST 25
+#define COMBO_TERM_SLOW 35
 
+/**
+ * maps to `require-prior-idle-ms`
+ * Must have no keys outside the combo pressed in this time before it
+ *
+ * if too slow = mod doesn't trigger when needed
+ * if too fast = mod will trigger in normal typing
+ */
 #define COMBO_IDLE_FAST 150
 #define COMBO_IDLE_SLOW 50
 
 // Caps
-ZMK_COMBO(capsword,   &caps_word,        LB1 RB1,    BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
-ZMK_COMBO(capslock,   &kp CAPSLOCK,     LB2 RB2,    BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+// .      name,       combo_bindings,   keypos,     combo_layers,   timeout-ms,       require-prior-idle-ms
+ZMK_COMBO(capsword,   &caps_word,       LB1 RB1,    BASE,           COMBO_TERM_FAST,  COMBO_IDLE_FAST)
+ZMK_COMBO(capslock,   &kp CAPSLOCK,     LB2 RB2,    BASE,           COMBO_TERM_FAST,  COMBO_IDLE_FAST)
 
-// Define "behaviors" for HRM chord 
+ Define "behaviors" for HRM chord 
 ZMK_BEHAVIOR(lpar, tap_dance, 
   // Should never trigger
-  tapping-term-ms = <1>;
+  tapping-term-ms = <-1>;
   bindings = <&kp LPAR>;
 )
 
 ZMK_BEHAVIOR(lbkt, tap_dance, 
   // Should never trigger
-  tapping-term-ms = <1>;
+  tapping-term-ms = <-1>;
   bindings = <&kp LBKT>;
 )
 
 ZMK_BEHAVIOR(lbrc, tap_dance, 
   // Should never trigger
-  tapping-term-ms = <1>;
+  tapping-term-ms = <-1>;
   bindings = <&kp LS(LBKT)>;
 )
 
 ZMK_BEHAVIOR(rpar, tap_dance, 
   // Should never trigger
-  tapping-term-ms = <1>;
+  tapping-term-ms = <-1>;
   bindings = <&kp RPAR>;
 )
 
 ZMK_BEHAVIOR(rbkt, tap_dance, 
   // Should never trigger
-  tapping-term-ms = <1>;
+  tapping-term-ms = <-1>;
   bindings = <&kp RBKT>;
 )
 
 ZMK_BEHAVIOR(rbrc, tap_dance, 
   // Should never trigger
-  tapping-term-ms = <1>;
+  tapping-term-ms = <-1>;
   bindings = <&kp RS(RBKT)>;
 )
 

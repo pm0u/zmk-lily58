@@ -15,6 +15,9 @@
 <svg id="mdi:arrow-up">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-up" viewBox="0 0 24 24"><path d="M13,20H11V8L5.5,13.5L4.08,12.08L12,4.16L19.92,12.08L18.5,13.5L13,8V20Z" /></svg>
 </svg>
+<svg id="mdi:caps-lock">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-caps-lock" viewBox="0 0 24 24"><path d="M9.96,13.71L12,8.29L14.03,13.72M11.14,6L6.43,18H8.36L9.32,15.43H14.68L15.64,18H17.57L12.86,6H11.14M20,2H4C2.89,2 2,2.89 2,4V20C2,21.11 2.9,22 4,22H20C21.11,22 22,21.11 22,20V4C22,2.89 21.1,2 20,2M20,20H4V4H20V20Z" /></svg>
+</svg>
 <svg id="mdi:location-exit">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-location-exit" viewBox="0 0 24 24"><path d="M22 12L18 8V11H10V13H18V16M20 18A10 10 0 1 1 20 6H17.27A8 8 0 1 0 17.27 18Z" /></svg>
 </svg>
@@ -638,7 +641,7 @@ svg.keymap { color: #3c3836; ;font-family: 'JetBrains Mono'; }</style>
 <g transform="translate(915, 175)" class="key keypos-34">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
-<text x="0" y="-4" class="key tap"><tspan style="font-size: 62%">CAPSLOCK</tspan></text>
+<use href="#mdi:caps-lock" xlink:href="#mdi:caps-lock" x="-7" y="-11" height="14" width="14.0" class="key tap glyph mdi:caps-lock"/>
 </g>
 <g transform="translate(976, 183)" class="key trans keypos-35">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>

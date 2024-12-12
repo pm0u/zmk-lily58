@@ -36,9 +36,8 @@ draw_config:
   glyph_shifted_size: 10
   glyphs: {}
 parse_config:
-  zmk_preamble: "#include <zmk-helpers/key-labels/lily58.h>"
   zmk_additional_includes:
-    - "modules/helpers/include"
+    - "zmk-helpers/include"
   preprocess: true
   skip_binding_parsing: false
   raw_binding_map:
@@ -303,6 +302,7 @@ parse_config:
     UP: "$$mdi:arrow-up$$"
     DOWN: "$$mdi:arrow-down$$"
     RIGHT: "$$mdi:arrow-right$$"
+    CAPSLOCK: "$$mdi:caps-lock$$"
   zmk_combos:
     {
       "combo_capsword":
