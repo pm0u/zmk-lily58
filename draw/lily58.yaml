@@ -52,14 +52,14 @@ layers:
   - {t: '?', s: '!'}
   - \
   - {type: trans}
-  - util
+  - nav
   - ⌦
   - ␣
   - ⮐
   - ⌫
   - num
   - {type: trans}
-  util:
+  nav:
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -79,10 +79,10 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - $$mdi:skip-previous$$
-  - $$mdi:play-pause$$
-  - $$mdi:skip-next$$
-  - $$mdi:volume-plus$$
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - Alt
@@ -94,7 +94,7 @@ layers:
   - $$mdi:arrow-down$$
   - $$mdi:arrow-up$$
   - $$mdi:arrow-right$$
-  - $$mdi:volume-minus$$
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -108,7 +108,7 @@ layers:
   - PAGE DOWN
   - PAGE UP
   - END
-  - $$mdi:volume-off$$
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: held}
@@ -209,10 +209,10 @@ layers:
   - {t: '6', s: ^}
   - '='
   - {type: trans}
-  - Shift
-  - Gui
-  - Ctrl
-  - Alt
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - (
@@ -222,6 +222,51 @@ layers:
   - )
   - {type: trans}
   - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - .
+  - {t: '0', s: )}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: held}
+  - {type: trans}
+  util:
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - VOL DN
+  - $$mdi:volume-off$$
+  - VOL UP
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - BRI UP
+  - BRI DN
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - $$mdi:skip-previous$$
+  - $$mdi:play-pause$$
+  - $$mdi:skip-next$$
+  - {type: trans}
+  - {type: trans}
   - bt 0
   - bt 1
   - bt 2
@@ -229,9 +274,23 @@ layers:
   - bt 4
   - {type: trans}
   - {type: trans}
-  - .
-  - {t: '0', s: )}
-  - _
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: held}
+  - {type: trans}
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: held}
@@ -292,28 +351,28 @@ combos:
   l: [base]
 - p: [26, 14]
   k: '@'
-  l: [base]
+  l: [base, num]
 - p: [27, 15]
   k: '#'
-  l: [base]
+  l: [base, num]
 - p: [28, 16]
   k: $
-  l: [base]
+  l: [base, num]
 - p: [29, 17]
   k: '%'
-  l: [base]
+  l: [base, num]
 - p: [38, 26]
   k: '`'
-  l: [base]
+  l: [base, num]
 - p: [39, 27]
   k: \
-  l: [base]
+  l: [base, num]
 - p: [40, 28]
   k: '='
-  l: [base]
+  l: [base, num]
 - p: [41, 29]
   k: '~'
-  l: [base]
+  l: [base, num]
 - p: [30, 18]
   k: ^
   l: [base]
