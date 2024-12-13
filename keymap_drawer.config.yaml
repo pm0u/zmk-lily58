@@ -27,7 +27,7 @@ draw_config:
     rel_h: 12
     rx: 4
     ry: 4
-  svg_extra_style: "svg.keymap { color: #3c3836; ;font-family: 'JetBrains Mono'; }"
+  svg_extra_style: "svg.keymap { font-family: 'JetBrains Mono'; }"
   footer_text: ""
   shrink_wide_legends: 5
   style_layer_activators: true
@@ -285,4 +285,6 @@ parse_config:
         { "align": "top", "offset": 0.25, width: 80.0, height: 20.0 },
       "combo_capslock":
         { "align": "top", "offset": 0.95, width: 60.0, height: 20.0 },
+      "combo_s_all": { "align": "top", "offset": 0.3 },
+      "combo_cut": { "align": "bottom", "offset": 0 },
     }

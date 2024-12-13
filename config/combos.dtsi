@@ -46,6 +46,11 @@ ZMK_BEHAVIOR(rpar, tap_dance,
 )
 
 // Left side
+// top row
+ZMK_COMBO(s_all, &kp LC(A),     LM3 LM1,     BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(undo,  &kp LC(Z),     LM3 LM2,     BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(redo,  &kp LC(LS(Z)), LM2 LM1,     BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+
 // bottom row
 ZMK_COMBO(cut,   &kp LC(X),     LF3 LF1,     BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 ZMK_COMBO(copy,  &kp LC(C),     LF3 LF2,     BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
