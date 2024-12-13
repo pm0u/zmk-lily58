@@ -57,6 +57,8 @@ parse_config:
       "&hml LCTRL S": { t: "S", h: "Ctrl" },
       "&hml LALT A": { t: "A", h: "Alt" },
       "&hml LSHIFT F": { t: "F", h: "Shift" },
+      "&lpar": { t: "(" },
+      "&rpar": { t: ")" },
     }
   sticky_label: sticky
   toggle_label: toggle
