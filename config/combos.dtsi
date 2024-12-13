@@ -32,19 +32,6 @@
 ZMK_COMBO(capsword,   &caps_word,       LB1 RB1,    BASE,           COMBO_TERM_FAST,  COMBO_IDLE_FAST)
 ZMK_COMBO(capslock,   &kp CAPSLOCK,     LB2 RB2,    BASE,           COMBO_TERM_FAST,  COMBO_IDLE_FAST)
 
-// Define "behaviors" for HRM chord 
-ZMK_BEHAVIOR(lpar, tap_dance, 
-  // Should never trigger
-  tapping-term-ms = <0>;
-  bindings = <&kp LPAR>;
-)
-
-ZMK_BEHAVIOR(rpar, tap_dance, 
-  // Should never trigger
-  tapping-term-ms = <0>;
-  bindings = <&kp RPAR>;
-)
-
 // Left side
 // top row
 ZMK_COMBO(s_all, &kp LC(A),     LM3 LM1,     BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
@@ -74,16 +61,16 @@ ZMK_COMBO(rbkt,  &kp RBKT,     RF2 RF3,     BASE, COMBO_TERM_FAST, COMBO_IDLE_FA
 
 /* Vertical combos - left hand */
 // middle-top @ # $ %
-ZMK_COMBO(at,    &kp AT,        LB3 LM3,     BASE, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-ZMK_COMBO(hash,  &kp HASH,      LB2 LM2,     BASE, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-ZMK_COMBO(dllr,  &kp DLLR,      LB1 LM1,     BASE, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-ZMK_COMBO(prcnt, &kp PRCNT,     LB0 LM0,     BASE, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(at,    &kp AT,        LB3 LM3,     BASE NUM, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(hash,  &kp HASH,      LB2 LM2,     BASE NUM, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(dllr,  &kp DLLR,      LB1 LM1,     BASE NUM, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(prcnt, &kp PRCNT,     LB0 LM0,     BASE NUM, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 
 // middle-bottom 
-ZMK_COMBO(grave, &kp GRAVE,     LF3 LB3,     BASE, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-ZMK_COMBO(bslh,  &kp BSLH,      LF2 LB2,     BASE, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-ZMK_COMBO(equal, &kp EQUAL,     LF1 LB1,     BASE, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-ZMK_COMBO(tilde, &kp TILDE,     LF0 LB0,     BASE, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(grave, &kp GRAVE,     LF3 LB3,     BASE NUM, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(bslh,  &kp BSLH,      LF2 LB2,     BASE NUM, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(equal, &kp EQUAL,     LF1 LB1,     BASE NUM, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(tilde, &kp TILDE,     LF0 LB0,     BASE NUM, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 
 /* Vertical combos - right hand */
 // middle-top

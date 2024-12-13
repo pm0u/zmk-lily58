@@ -6,3 +6,21 @@
 
 // tap: qmark | shift + tap: excl
 SIMPLE_MORPH(qexcl, SFT, &kp QMARK, &kp EXCL)
+
+// Define "behaviors" for HRM chord
+ZMK_BEHAVIOR(lpar, tap_dance,
+    tapping-term-ms = <0>;
+    bindings = <&kp LPAR>;
+)
+
+ZMK_BEHAVIOR(rpar, tap_dance,
+    tapping-term-ms = <0>;
+    bindings = <&kp RPAR>;
+)
+
+ZMK_TAP_DANCE(capsdance,
+    tapping-term-ms = <QUICK_TAP_MS>;
+    bindings = <&kp LSHIFT>, <&kp CAPSLOCK>;
+)
+
+ZMK_CONDITIONAL_LAYER(util, NAV NUM, UTIL)
