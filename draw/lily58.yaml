@@ -224,10 +224,10 @@ layers:
   - {type: trans}
   - bt 0
   - bt 1
-  - '&BT BT_SEL 2'
+  - bt 2
   - bt 3
   - bt 4
-  - {t: BT, h: '5'}
+  - {type: trans}
   - {type: trans}
   - .
   - {t: '0', s: )}
