@@ -288,12 +288,12 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: held}
   - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: held}
+  - {type: trans}
+  - {type: trans}
   - {type: trans}
 combos:
 - p: [28, 31]
