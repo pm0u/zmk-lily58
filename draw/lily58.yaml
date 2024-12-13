@@ -338,10 +338,10 @@ combos:
   k: '}'
   l: [base]
 - p: [31, 32]
-  k: {t: '&lpar', h: ⇧+Gui}
+  k: {t: (, h: ⇧+Gui}
   l: [base]
 - p: [32, 33]
-  k: {t: '&rpar', h: ⇧+Ctrl}
+  k: {t: ), h: ⇧+Ctrl}
   l: [base]
 - p: [45, 46]
   k: '['
