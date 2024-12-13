@@ -51,14 +51,14 @@ layers:
   - .
   - {t: '?', s: '!'}
   - \
-  - mouse
+  - {type: trans}
   - nav
   - ⌦
   - ␣
   - ⮐
   - ⌫
   - num
-  - media
+  - {type: trans}
   nav:
   - {type: trans}
   - {type: trans}
@@ -78,11 +78,11 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - ^+⇧+Z
-  - ^+V
-  - ^+C
-  - ^+X
-  - ^+Z
+  - {type: trans}
+  - $$mdi:skip-previous$$
+  - $$mdi:play-pause$$
+  - $$mdi:skip-next$$
+  - $$mdi:volume-plus$$
   - {type: trans}
   - {type: trans}
   - Alt
@@ -94,13 +94,13 @@ layers:
   - $$mdi:arrow-down$$
   - $$mdi:arrow-up$$
   - $$mdi:arrow-right$$
-  - ^+A
+  - $$mdi:volume-minus$$
   - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - bt 4
+  - bt 3
+  - bt 2
+  - bt 1
+  - bt 0
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -108,11 +108,11 @@ layers:
   - PAGE DOWN
   - PAGE UP
   - END
-  - INSERT
+  - $$mdi:volume-off$$
   - {type: trans}
   - {type: trans}
   - {type: held}
-  - {type: trans}
+  - mouse
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -137,17 +137,17 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - ^+⇧+Z
-  - ^+V
-  - ^+C
-  - ^+X
-  - ^+Z
   - {type: trans}
   - {type: trans}
-  - Alt
-  - Ctrl
-  - Gui
-  - Shift
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {type: trans}
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
@@ -169,9 +169,9 @@ layers:
   - '&msc SCRL_RIGHT'
   - {type: trans}
   - {type: trans}
+  - {type: trans}
   - {type: held}
-  - {type: trans}
-  - {type: trans}
+  - {type: held}
   - {type: trans}
   - '&mkp MB1'
   - '&mkp MB2'
@@ -236,65 +236,6 @@ layers:
   - {type: trans}
   - {type: held}
   - {type: trans}
-  media:
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - $$mdi:volume-off$$
-  - $$mdi:volume-minus$$
-  - $$mdi:volume-plus$$
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - $$mdi:skip-previous$$
-  - $$mdi:play-pause$$
-  - $$mdi:skip-next$$
-  - {type: trans}
-  - {type: trans}
-  - Shift
-  - Gui
-  - Ctrl
-  - Alt
-  - {type: trans}
-  - bt 4
-  - bt 3
-  - bt 2
-  - bt 1
-  - bt 0
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: held}
 combos:
 - p: [28, 31]
   k: CAPSWORD
