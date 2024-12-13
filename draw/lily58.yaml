@@ -85,10 +85,10 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - Alt
-  - Ctrl
-  - Gui
-  - Shift
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {type: trans}
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
@@ -104,10 +104,10 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - HOME
-  - PAGE DOWN
-  - PAGE UP
-  - END
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -163,10 +163,10 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - '&msc SCRL_LEFT'
-  - '&msc SCRL_DOWN'
-  - '&msc SCRL_UP'
-  - '&msc SCRL_RIGHT'
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -250,10 +250,10 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
+  - {type: trans}
   - VOL DN
   - $$mdi:volume-off$$
   - VOL UP
-  - {type: trans}
   - {type: trans}
   - {type: trans}
   - BRI UP
@@ -262,10 +262,10 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
+  - {type: trans}
   - $$mdi:skip-previous$$
   - $$mdi:play-pause$$
   - $$mdi:skip-next$$
-  - {type: trans}
   - {type: trans}
   - bt 0
   - bt 1
