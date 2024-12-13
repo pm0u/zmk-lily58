@@ -435,8 +435,8 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 <g transform="translate(244, 284)" class="key keypos-51">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
-<a href="#nav">
-<text x="0" y="-4" class="key tap layer-activator">nav</text>
+<a href="#util">
+<text x="0" y="-4" class="key tap layer-activator">util</text>
 </a></g>
 <g transform="translate(305, 290)" class="key keypos-52">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
@@ -600,8 +600,8 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 </g>
 </g>
 </g>
-<g transform="translate(30, 401)" class="layer-nav">
-<text x="0" y="28" class="label" id="nav">nav</text>
+<g transform="translate(30, 401)" class="layer-util">
+<text x="0" y="28" class="label" id="util">util</text>
 <g transform="translate(0, 56)">
 <g transform="translate(30, 61)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
@@ -760,40 +760,25 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
 </g>
-<g transform="translate(30, 244)" class="key keypos-36">
-<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
-<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
-<text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">bt</tspan><tspan x="0" dy="1.2em">4</tspan>
-</text>
+<g transform="translate(30, 244)" class="key trans keypos-36">
+<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
+<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
 </g>
-<g transform="translate(92, 236)" class="key keypos-37">
-<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
-<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
-<text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">bt</tspan><tspan x="0" dy="1.2em">3</tspan>
-</text>
+<g transform="translate(92, 236)" class="key trans keypos-37">
+<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
+<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
 </g>
-<g transform="translate(152, 221)" class="key keypos-38">
-<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
-<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
-<text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">bt</tspan><tspan x="0" dy="1.2em">2</tspan>
-</text>
+<g transform="translate(152, 221)" class="key trans keypos-38">
+<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
+<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
 </g>
-<g transform="translate(214, 214)" class="key keypos-39">
-<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
-<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
-<text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">bt</tspan><tspan x="0" dy="1.2em">1</tspan>
-</text>
+<g transform="translate(214, 214)" class="key trans keypos-39">
+<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
+<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
 </g>
-<g transform="translate(274, 221)" class="key keypos-40">
-<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
-<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
-<text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">bt</tspan><tspan x="0" dy="1.2em">0</tspan>
-</text>
+<g transform="translate(274, 221)" class="key trans keypos-40">
+<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
+<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
 </g>
 <g transform="translate(336, 229)" class="key trans keypos-41">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
@@ -1353,29 +1338,46 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
 </g>
-<g transform="translate(671, 229)" class="key trans keypos-44">
-<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
-<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
+<g transform="translate(671, 229)" class="key keypos-44">
+<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
+<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em">bt</tspan><tspan x="0" dy="1.2em">0</tspan>
+</text>
 </g>
-<g transform="translate(732, 221)" class="key trans keypos-45">
-<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
-<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
+<g transform="translate(732, 221)" class="key keypos-45">
+<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
+<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em">bt</tspan><tspan x="0" dy="1.2em">1</tspan>
+</text>
 </g>
-<g transform="translate(793, 214)" class="key trans keypos-46">
-<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
-<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
+<g transform="translate(793, 214)" class="key keypos-46">
+<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
+<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-1.2em" style="font-size: 83%">&amp;BT</tspan><tspan x="0" dy="1.2em" style="font-size: 83%">BT_SEL</tspan><tspan x="0" dy="1.2em" style="font-size: 83%">2</tspan>
+</text>
 </g>
-<g transform="translate(854, 221)" class="key trans keypos-47">
-<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
-<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
+<g transform="translate(854, 221)" class="key keypos-47">
+<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
+<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em">bt</tspan><tspan x="0" dy="1.2em">3</tspan>
+</text>
 </g>
-<g transform="translate(915, 236)" class="key trans keypos-48">
-<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
-<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
+<g transform="translate(915, 236)" class="key keypos-48">
+<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
+<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em">bt</tspan><tspan x="0" dy="1.2em">4</tspan>
+</text>
 </g>
-<g transform="translate(976, 244)" class="key trans keypos-49">
-<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
-<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
+<g transform="translate(976, 244)" class="key keypos-49">
+<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
+<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
+<text x="0" y="-4" class="key tap">BT</text>
+<text x="0" y="26" class="key hold">5</text>
 </g>
 <g transform="translate(183, 282)" class="key trans keypos-50">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>

@@ -11,6 +11,8 @@
     - Horizontal combos on the left middle row for undo, redo, and select all. Along with cut/copy/paste (bottom row combos) this allows for most text related actions I need while using a mouse, all on left hand.
     - f/j triggers caps word, d/k triggers capslock
 - Tapdance on shift for: shift, caps_word, caps lock
-- Layering loosely follows [miryoku](https://github.com/manna-harbour/miryoku) and is WIP
+- Layering inspired by [miryoku](https://github.com/manna-harbour/miryoku) (WIP)
+  - Util layer covers arrow & media (R hand). From util, you can trigger a mouse overlay using the first knuckle of your thumb to span inner & mid thumb keys. Its slightly awkward, but seldom used and keeps the L fingers free for mods if needed. Horizontal combos from base layer are available in both modes (copy/paste/cut/undo/redo/select all)
+  - Num layer is triggered from the right layer and provides a southpaw numpad with common symbols (WIP)
 
 ![keymap](/draw/lily58.svg)
