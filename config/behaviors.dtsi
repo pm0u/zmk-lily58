@@ -24,3 +24,8 @@ ZMK_TAP_DANCE(capsdance,
 )
 
 ZMK_CONDITIONAL_LAYER(util, NAV NUM, UTIL)
+
+ZMK_MACRO_ONE_PARAM(
+    to_space,
+    bindings = <&macro_param_1to1>, <&kp LG(MACRO_PLACEHOLDER)>
+)
