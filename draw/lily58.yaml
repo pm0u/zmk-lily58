@@ -191,10 +191,11 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
+  - '['
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
+  - ']'
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -202,8 +203,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - \
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
@@ -215,10 +215,11 @@ layers:
   - Alt
   - {type: trans}
   - {type: trans}
-  - {type: trans}
+  - (
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
+  - )
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -228,10 +229,9 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - _
-  - {t: '0', s: )}
   - .
-  - {type: trans}
+  - {t: '0', s: )}
+  - _
   - {type: trans}
   - {type: trans}
   - {type: held}
