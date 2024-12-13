@@ -49,7 +49,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: '?', s: '!'}
   - \
   - mouse
   - nav
@@ -94,7 +94,7 @@ layers:
   - $$mdi:arrow-down$$
   - $$mdi:arrow-up$$
   - $$mdi:arrow-right$$
-  - CAPSLOCK
+  - ^+A
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -310,9 +310,21 @@ combos:
   o: 0.95
   w: 60.0
   h: 20.0
+- p: [14, 16]
+  k: ^+A
+  l: [base]
+  a: top
+  o: 0.3
+- p: [14, 15]
+  k: ^+Z
+  l: [base]
+- p: [15, 16]
+  k: ^+⇧+Z
+  l: [base]
 - p: [38, 40]
   k: ^+X
   l: [base]
+  a: bottom
 - p: [38, 39]
   k: ^+C
   l: [base]
