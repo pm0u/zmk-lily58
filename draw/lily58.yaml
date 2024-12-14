@@ -47,8 +47,8 @@ layers:
   - ']'
   - N
   - M
-  - ','
-  - .
+  - {t: ',', s: ;}
+  - {t: ., s: ':'}
   - {t: '?', s: '!'}
   - \
   - {type: trans}
@@ -328,12 +328,6 @@ combos:
 - p: [15, 16]
   k: ^+⇧+Z
   l: [base, nav, mouse]
-- p: [28, 27]
-  k: {t: Tab, h: ⇧+Gui}
-  l: [base, nav, num]
-- p: [27, 26]
-  k: {t: Esc, h: ⇧+Ctrl}
-  l: [base, nav, num]
 - p: [38, 40]
   k: ^+X
   l: [base, nav, mouse]
