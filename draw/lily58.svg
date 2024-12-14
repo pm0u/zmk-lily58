@@ -1358,36 +1358,94 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
 </g>
 <g class="combo combopos-0">
+<rect rx="6" ry="6" x="752" y="80" width="20" height="30" class="combo"/>
+<text x="762" y="95" class="combo tap">{</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="814" y="80" width="20" height="30" class="combo"/>
+<text x="824" y="95" class="combo tap">}</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="752" y="141" width="20" height="30" class="combo"/>
+<text x="762" y="156" class="combo tap">(</text>
+<text x="762" y="169" class="combo hold">⇧+Gui</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="814" y="141" width="20" height="30" class="combo"/>
+<text x="824" y="156" class="combo tap">)</text>
+<text x="824" y="169" class="combo hold"><tspan style="font-size: 83%">⇧+Ctrl</tspan></text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="752" y="202" width="20" height="30" class="combo"/>
+<text x="762" y="217" class="combo tap">[</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="814" y="202" width="20" height="30" class="combo"/>
+<text x="824" y="217" class="combo tap">]</text>
+</g>
+<g class="combo combopos-6">
 <rect rx="6" ry="6" x="142" y="115" width="20" height="30" class="combo"/>
 <text x="152" y="130" class="combo tap">@</text>
 </g>
-<g class="combo combopos-1">
+<g class="combo combopos-7">
 <rect rx="6" ry="6" x="204" y="107" width="20" height="30" class="combo"/>
 <text x="214" y="122" class="combo tap">#</text>
 </g>
-<g class="combo combopos-2">
+<g class="combo combopos-8">
 <rect rx="6" ry="6" x="264" y="115" width="20" height="30" class="combo"/>
 <text x="274" y="130" class="combo tap">$</text>
 </g>
-<g class="combo combopos-3">
+<g class="combo combopos-9">
 <rect rx="6" ry="6" x="326" y="122" width="20" height="30" class="combo"/>
 <text x="336" y="137" class="combo tap">%</text>
 </g>
-<g class="combo combopos-4">
+<g class="combo combopos-10">
 <rect rx="6" ry="6" x="142" y="176" width="20" height="30" class="combo"/>
 <text x="152" y="191" class="combo tap">`</text>
 </g>
-<g class="combo combopos-5">
+<g class="combo combopos-11">
 <rect rx="6" ry="6" x="204" y="168" width="20" height="30" class="combo"/>
 <text x="214" y="183" class="combo tap">\</text>
 </g>
-<g class="combo combopos-6">
+<g class="combo combopos-12">
 <rect rx="6" ry="6" x="264" y="176" width="20" height="30" class="combo"/>
 <text x="274" y="191" class="combo tap">=</text>
 </g>
-<g class="combo combopos-7">
+<g class="combo combopos-13">
 <rect rx="6" ry="6" x="326" y="183" width="20" height="30" class="combo"/>
 <text x="336" y="198" class="combo tap">~</text>
+</g>
+<g class="combo combopos-14">
+<rect rx="6" ry="6" x="661" y="122" width="20" height="30" class="combo"/>
+<text x="671" y="137" class="combo tap">^</text>
+</g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="722" y="115" width="20" height="30" class="combo"/>
+<text x="732" y="130" class="combo tap">&amp;</text>
+</g>
+<g class="combo combopos-16">
+<rect rx="6" ry="6" x="783" y="107" width="20" height="30" class="combo"/>
+<text x="793" y="122" class="combo tap">*</text>
+</g>
+<g class="combo combopos-17">
+<rect rx="6" ry="6" x="844" y="115" width="20" height="30" class="combo"/>
+<text x="854" y="130" class="combo tap">+</text>
+</g>
+<g class="combo combopos-18">
+<rect rx="6" ry="6" x="661" y="183" width="20" height="30" class="combo"/>
+<text x="671" y="198" class="combo tap">_</text>
+</g>
+<g class="combo combopos-19">
+<rect rx="6" ry="6" x="722" y="176" width="20" height="30" class="combo"/>
+<text x="732" y="191" class="combo tap">|</text>
+</g>
+<g class="combo combopos-20">
+<rect rx="6" ry="6" x="783" y="168" width="20" height="30" class="combo"/>
+<text x="793" y="183" class="combo tap">/</text>
+</g>
+<g class="combo combopos-21">
+<rect rx="6" ry="6" x="844" y="176" width="20" height="30" class="combo"/>
+<text x="854" y="191" class="combo tap">_</text>
 </g>
 </g>
 </g>
@@ -1629,9 +1687,9 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
 </g>
-<g transform="translate(244, 284)" class="key trans keypos-51">
-<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
-<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
+<g transform="translate(244, 284)" class="key held keypos-51">
+<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key held side"/>
+<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key held"/>
 </g>
 <g transform="translate(305, 290)" class="key trans keypos-52">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
@@ -1649,9 +1707,9 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
 </g>
-<g transform="translate(762, 284)" class="key trans keypos-56">
-<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
-<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
+<g transform="translate(762, 284)" class="key held keypos-56">
+<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key held side"/>
+<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key held"/>
 </g>
 <g transform="translate(824, 284)" class="key trans keypos-57">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>

@@ -288,12 +288,12 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
+  - {type: held}
   - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - {type: held}
   - {type: trans}
 combos:
 - p: [28, 31]
@@ -333,22 +333,22 @@ combos:
   l: [base]
 - p: [19, 20]
   k: '{'
-  l: [base]
+  l: [base, num]
 - p: [20, 21]
   k: '}'
-  l: [base]
+  l: [base, num]
 - p: [31, 32]
   k: {t: (, h: ⇧+Gui}
-  l: [base]
+  l: [base, num]
 - p: [32, 33]
   k: {t: ), h: ⇧+Ctrl}
-  l: [base]
+  l: [base, num]
 - p: [45, 46]
   k: '['
-  l: [base]
+  l: [base, num]
 - p: [46, 47]
   k: ']'
-  l: [base]
+  l: [base, num]
 - p: [26, 14]
   k: '@'
   l: [base, num]
@@ -375,25 +375,25 @@ combos:
   l: [base, num]
 - p: [30, 18]
   k: ^
-  l: [base]
+  l: [base, num]
 - p: [31, 19]
   k: '&'
-  l: [base]
+  l: [base, num]
 - p: [32, 20]
   k: '*'
-  l: [base]
+  l: [base, num]
 - p: [33, 21]
   k: +
-  l: [base]
+  l: [base, num]
 - p: [44, 30]
   k: _
-  l: [base]
+  l: [base, num]
 - p: [45, 31]
   k: '|'
-  l: [base]
+  l: [base, num]
 - p: [46, 32]
   k: /
-  l: [base]
+  l: [base, num]
 - p: [47, 33]
   k: _
-  l: [base]
+  l: [base, num]
