@@ -49,7 +49,7 @@ layers:
   - M
   - ','
   - .
-  - '&qexcl'
+  - {t: '?', s: '!'}
   - \
   - {type: trans}
   - nav
@@ -351,10 +351,10 @@ combos:
   k: '}'
   l: [base, nav, num]
 - p: [31, 32]
-  k: {t: '&lpar_lt', h: ⇧+Gui}
+  k: {t: (, h: ⇧+Gui, s: <}
   l: [base, nav, num]
 - p: [32, 33]
-  k: {t: '&rpar_gt', h: ⇧+Ctrl}
+  k: {t: ), h: ⇧+Ctrl, s: '>'}
   l: [base, nav, num]
 - p: [45, 46]
   k: '['
