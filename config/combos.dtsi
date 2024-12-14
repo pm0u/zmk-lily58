@@ -31,7 +31,8 @@
 //        name,     combo_bindings, keypos,   combo_layers,      timeout-ms,       require-prior-idle-ms
 ZMK_COMBO(capsword, &caps_word,     LB1 RB1,  BASE               , COMBO_TERM_FAST,  COMBO_IDLE_FAST)
 ZMK_COMBO(capslock, &kp CAPSLOCK,   LB2 RB2,  BASE               , COMBO_TERM_FAST,  COMBO_IDLE_FAST)
-ZMK_COMBO(sk_shft, &sk LSHFT,       LB3 RB3,  BASE               , COMBO_TERM_FAST,  COMBO_IDLE_FAST)
+// maybe breaking?
+//ZMK_COMBO(sk_shft, &sk LSHFT,       LB3 RB3,  BASE               , COMBO_TERM_FAST,  COMBO_IDLE_FAST)
 
 // Left side
 // top row undo, redo, select all

@@ -59,7 +59,3 @@
 - `util` is a conditional layer triggered by activating num/nav. this is a bit of a dumping ground for os/media/zmk utils.
 
 ![keymap](/draw/lily58.svg)
-
-```
-
-```
