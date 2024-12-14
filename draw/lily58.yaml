@@ -354,7 +354,7 @@ combos:
   k: {t: (, h: ⇧+Gui, s: <}
   l: [base, nav, num]
 - p: [32, 33]
-  k: {t: '&rpar_gt', h: ⇧+Ctrl}
+  k: {t: ), h: ⇧+Ctrl, s: '>'}
   l: [base, nav, num]
 - p: [45, 46]
   k: '['
