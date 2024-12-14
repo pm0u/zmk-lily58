@@ -35,7 +35,7 @@ layers:
   - {t: J, h: Shift}
   - {t: K, h: Gui}
   - {t: L, h: Ctrl}
-  - {t: ;, h: Alt, s: ':'}
+  - {t: '''', h: Alt}
   - ''''
   - $$mdi:apple-keyboard-caps$$
   - Z
@@ -47,8 +47,8 @@ layers:
   - ']'
   - N
   - M
-  - ','
-  - .
+  - {t: ',', s: ;}
+  - {t: ., s: ':'}
   - {t: '?', s: '!'}
   - \
   - {type: trans}
@@ -256,9 +256,9 @@ layers:
   - VOL UP
   - {type: trans}
   - {type: trans}
-  - BRI UP
-  - BRI DN
-  - {type: trans}
+  - OUT BLE
+  - OUT TOG
+  - OUT USB
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -267,25 +267,25 @@ layers:
   - $$mdi:play-pause$$
   - $$mdi:skip-next$$
   - {type: trans}
-  - bt 0
-  - bt 1
-  - bt 2
-  - bt 3
-  - bt 4
+  - {type: trans}
+  - BRI UP
+  - {type: trans}
+  - BRI DN
   - {type: trans}
   - {type: trans}
   - {type: trans}
+  - {t: BT CLR, h: '4'}
+  - {t: BT CLR, h: '3'}
+  - {t: BT CLR, h: '2'}
+  - {t: BT CLR, h: '1'}
+  - {t: BT CLR, h: '0'}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - {type: trans}
   - {type: trans}
   - {type: held}
@@ -300,7 +300,7 @@ combos:
   k: CAPSWORD
   l: [base]
   a: top
-  o: 0.25
+  o: 0.3
   w: 80.0
   h: 20.0
 - p: [27, 32]
@@ -310,6 +310,13 @@ combos:
   o: 0.95
   w: 60.0
   h: 20.0
+- p: [26, 33]
+  k: {t: LSHFT, h: sticky}
+  l: [base]
+  a: top
+  o: 1.7
+  w: 60.0
+  h: 30.0
 - p: [14, 16]
   k: ^+A
   l: [base, nav, mouse]
@@ -321,6 +328,12 @@ combos:
 - p: [15, 16]
   k: ^+⇧+Z
   l: [base, nav, mouse]
+- p: [28, 27]
+  k: {t: Tab, h: ⇧+Gui}
+  l: [base, nav, num]
+- p: [27, 26]
+  k: {t: Esc, h: ⇧+Ctrl}
+  l: [base, nav, num]
 - p: [38, 40]
   k: ^+X
   l: [base, nav, mouse]
@@ -338,10 +351,10 @@ combos:
   k: '}'
   l: [base, nav, num]
 - p: [31, 32]
-  k: {t: (, h: ⇧+Gui}
+  k: {t: (, h: ⇧+Gui, s: <}
   l: [base, nav, num]
 - p: [32, 33]
-  k: {t: ), h: ⇧+Ctrl}
+  k: {t: '&rpar_gt', h: ⇧+Ctrl}
   l: [base, nav, num]
 - p: [45, 46]
   k: '['
@@ -363,6 +376,9 @@ combos:
   l: [base, nav, num, mouse]
 - p: [38, 26]
   k: '`'
+  l: [base, nav, num, mouse]
+- p: [39, 27]
+  k: \
   l: [base, nav, num, mouse]
 - p: [40, 28]
   k: '='
