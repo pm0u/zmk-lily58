@@ -47,9 +47,9 @@ layers:
   - ']'
   - N
   - M
-  - {t: ',', s: ;}
-  - {t: ., s: ':'}
-  - {t: '?', s: '!'}
+  - ','
+  - .
+  - '&qexcl'
   - \
   - {type: trans}
   - nav
@@ -274,11 +274,11 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {t: BT CLR, h: '4'}
-  - {t: BT CLR, h: '3'}
-  - {t: BT CLR, h: '2'}
-  - {t: BT CLR, h: '1'}
-  - {t: BT CLR, h: '0'}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - {t: BT, h: '0'}
@@ -351,10 +351,10 @@ combos:
   k: '}'
   l: [base, nav, num]
 - p: [31, 32]
-  k: {t: (, h: ⇧+Gui, s: <}
+  k: {t: '&lpar_lt', h: ⇧+Gui}
   l: [base, nav, num]
 - p: [32, 33]
-  k: {t: ), h: ⇧+Ctrl, s: '>'}
+  k: {t: '&rpar_gt', h: ⇧+Ctrl}
   l: [base, nav, num]
 - p: [45, 46]
   k: '['
