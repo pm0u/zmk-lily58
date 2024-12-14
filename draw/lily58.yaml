@@ -312,88 +312,85 @@ combos:
   h: 20.0
 - p: [14, 16]
   k: ^+A
-  l: [base]
+  l: [base, nav, mouse]
   a: top
   o: 0.3
 - p: [14, 15]
   k: ^+Z
-  l: [base]
+  l: [base, nav, mouse]
 - p: [15, 16]
   k: ^+⇧+Z
-  l: [base]
+  l: [base, nav, mouse]
 - p: [38, 40]
   k: ^+X
-  l: [base]
+  l: [base, nav, mouse]
   a: bottom
 - p: [38, 39]
   k: ^+C
-  l: [base]
+  l: [base, nav, mouse]
 - p: [39, 40]
   k: ^+V
-  l: [base]
+  l: [base, nav, mouse]
 - p: [19, 20]
   k: '{'
-  l: [base, num]
+  l: [base, nav, num]
 - p: [20, 21]
   k: '}'
-  l: [base, num]
+  l: [base, nav, num]
 - p: [31, 32]
   k: {t: (, h: ⇧+Gui}
-  l: [base, num]
+  l: [base, nav, num]
 - p: [32, 33]
   k: {t: ), h: ⇧+Ctrl}
-  l: [base, num]
+  l: [base, nav, num]
 - p: [45, 46]
   k: '['
-  l: [base, num]
+  l: [base, nav, num]
 - p: [46, 47]
   k: ']'
-  l: [base, num]
+  l: [base, nav, num]
 - p: [26, 14]
   k: '@'
-  l: [base, num]
+  l: [base, nav, num, mouse]
 - p: [27, 15]
   k: '#'
-  l: [base, num]
+  l: [base, nav, num, mouse]
 - p: [28, 16]
   k: $
-  l: [base, num]
+  l: [base, nav, num, mouse]
 - p: [29, 17]
   k: '%'
-  l: [base, num]
+  l: [base, nav, num, mouse]
 - p: [38, 26]
   k: '`'
-  l: [base, num]
-- p: [39, 27]
-  k: \
-  l: [base, num]
+  l: [base, nav, num, mouse]
 - p: [40, 28]
   k: '='
-  l: [base, num]
+  l: [base, nav, num, mouse]
 - p: [41, 29]
   k: '~'
-  l: [base, num]
+  l: [base, nav, num, mouse]
 - p: [30, 18]
   k: ^
-  l: [base, num]
+  l: [base, nav, num]
 - p: [31, 19]
   k: '&'
-  l: [base, num]
+  l: [base, nav, num]
 - p: [32, 20]
   k: '*'
-  l: [base, num]
+  l: [base, nav, num]
 - p: [33, 21]
   k: +
-  l: [base, num]
+  l: [base, nav, num]
 - p: [44, 30]
   k: _
-  l: [base, num]
+  l: [base, nav, num]
 - p: [45, 31]
   k: '|'
-  l: [base, num]
+  l: [base, nav, num]
 - p: [46, 32]
   k: /
-  l: [base, num]
+  l: [base, nav, num]
 - p: [47, 33]
   k: _
-  l: [base, num]
+  l: [base, nav, num]
