@@ -14,8 +14,8 @@
  * if too slow = false positives in rolls
  * if too fast = types out both letters instead
  */
-#define COMBO_TERM_FAST 50
-#define COMBO_TERM_SLOW 70
+#define COMBO_TERM_FAST 30
+#define COMBO_TERM_SLOW 60
 
 /**
  * maps to `require-prior-idle-ms`
@@ -47,16 +47,16 @@ ZMK_COMBO(paste, &kp LC(V),     LF2 LF1,     BASE, COMBO_TERM_FAST, COMBO_IDLE_F
 // Second arg needs to be a behavior - not a &kp binding
 // right side
 // top row {}
-ZMK_COMBO(lbrc,  &kp LBRC,     RM1 RM2,     BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
-ZMK_COMBO(rbrc,  &kp RBRC,     RM2 RM3,     BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(lbrc,  &kp LBRC,     RM1 RM2,     BASE NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(rbrc,  &kp RBRC,     RM2 RM3,     BASE NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 
 // home row ()
-ZMK_COMBO(lpar,  &lpar,     RB1 RB2,     BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST, RS(RGUI),    KEYS_L)
-ZMK_COMBO(rpar,  &rpar,     RB2 RB3,     BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST, RS(RCTRL),   KEYS_L)
+ZMK_COMBO(lpar,  &lpar,     RB1 RB2,     BASE NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST, RS(RGUI),    KEYS_L)
+ZMK_COMBO(rpar,  &rpar,     RB2 RB3,     BASE NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST, RS(RCTRL),   KEYS_L)
 
 // bottom row []
-ZMK_COMBO(lbkt,  &kp LBKT,     RF1 RF2,     BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
-ZMK_COMBO(rbkt,  &kp RBKT,     RF2 RF3,     BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(lbkt,  &kp LBKT,     RF1 RF2,     BASE NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(rbkt,  &kp RBKT,     RF2 RF3,     BASE NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 
 
 /* Vertical combos - left hand */
@@ -74,13 +74,13 @@ ZMK_COMBO(tilde, &kp TILDE,     LF0 LB0,     BASE NUM, COMBO_TERM_SLOW, COMBO_ID
 
 /* Vertical combos - right hand */
 // middle-top
-ZMK_COMBO(caret, &kp CARET,     RB0 RM0,     BASE, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-ZMK_COMBO(amps,  &kp AMPS,      RB1 RM1,     BASE, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-ZMK_COMBO(star,  &kp STAR,      RB2 RM2,     BASE, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-ZMK_COMBO(plus,  &kp PLUS,      RB3 RM3,     BASE, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(caret, &kp CARET,     RB0 RM0,     BASE NUM, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(amps,  &kp AMPS,      RB1 RM1,     BASE NUM, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(star,  &kp STAR,      RB2 RM2,     BASE NUM, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(plus,  &kp PLUS,      RB3 RM3,     BASE NUM, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 
 // middle-bottom
-ZMK_COMBO(under, &kp UNDER,     RF0 RB0,     BASE, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-ZMK_COMBO(pipe,  &kp PIPE,      RF1 RB1,     BASE, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-ZMK_COMBO(fslh,  &kp FSLH,      RF2 RB2,     BASE, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-ZMK_COMBO(minus, &kp MINUS,     RF3 RB3,     BASE, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(under, &kp UNDER,     RF0 RB0,     BASE NUM, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(pipe,  &kp PIPE,      RF1 RB1,     BASE NUM, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(fslh,  &kp FSLH,      RF2 RB2,     BASE NUM, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(minus, &kp MINUS,     RF3 RB3,     BASE NUM, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)

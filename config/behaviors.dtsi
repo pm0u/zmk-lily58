@@ -23,14 +23,4 @@ ZMK_TAP_DANCE(capsdance,
     bindings = <&kp LSHIFT>, <&kp CAPSLOCK>;
 )
 
-// temporary disable - see if this is causing issues
-//ZMK_CONDITIONAL_LAYER(util, NAV NUM, UTIL)
-
-// currently unused
-//ZMK_MACRO_ONE_PARAM(space_go,
-//    bindings = <&macro_param_1to1>, <&kp LG(MACRO_PLACEHOLDER)>;
-//)
-//
-//ZMK_MACRO_ONE_PARAM(space_mv,
-//    bindings = <&macro_param_1to1>, <&kp LS(LG(MACRO_PLACEHOLDER))>;
-//)
+ZMK_CONDITIONAL_LAYER(util, NAV NUM, UTIL)
