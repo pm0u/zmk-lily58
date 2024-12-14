@@ -5,11 +5,11 @@
     )
 
 // tap: qmark | shift + tap: excl
-//SIMPLE_MORPH(qexcl, SFT, &kp QMARK, &kp EXCL)
+SIMPLE_MORPH(qexcl, SFT, &kp QMARK, &kp EXCL)
 // Tap: lparens  |  shift + tap: <
-//SIMPLE_MORPH(lpar_lt, SFT, &kp LPAR, &kp LESS_THAN)
+SIMPLE_MORPH(lpar_lt, SFT, &kp LPAR, &kp LESS_THAN)
 // Tap: lparens  |  shift + tap: <
-//SIMPLE_MORPH(rpar_gt, SFT, &kp RPAR, &kp GREATER_THAN)
+SIMPLE_MORPH(rpar_gt, SFT, &kp RPAR, &kp GREATER_THAN)
 
 // tap: comma | shift + tap: semicolon | ctrl + shift + tap: <
 //SIMPLE_MORPH(comma_semi, SFT, &kp COMMA, &comma_inner_morph)
