@@ -8,6 +8,9 @@
 SIMPLE_MORPH(qexcl, SFT, &kp QMARK, &kp EXCL)
 // Tap: lparens  |  shift + tap: <
 SIMPLE_MORPH(lpar_lt, SFT, &kp LPAR, &kp LT)
+// Tap: lparens  |  shift + tap: <
+SIMPLE_MORPH(rpar_gt, SFT, &kp RPAR, &kp GT)
+
 // tap: comma | shift + tap: semicolon | ctrl + shift + tap: <
 SIMPLE_MORPH(comma_semi, SFT, &kp COMMA, &comma_inner_morph)
 SIMPLE_MORPH(comma_inner_morph, CTL, &kp SEMICOLON, &kp LESS_THAN)
