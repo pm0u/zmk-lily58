@@ -15,7 +15,7 @@ SIMPLE_MORPH(rpar_gt, SFT, &kp RPAR, &kp GT)
 SIMPLE_MORPH(comma_semi, SFT, &kp COMMA, &comma_inner_morph)
 SIMPLE_MORPH(comma_inner_morph, CTL, &kp SEMICOLON, &kp LESS_THAN)
 // tap: dot | shift + tap: colon | ctrl + shift + tap: >
-SIMPLE_MORPH(dot_colon, SFT, &kp DOT, &kp COLON)
+SIMPLE_MORPH(dot_colon, SFT, &kp DOT, &dot_inner_morph)
 SIMPLE_MORPH(dot_inner_morph, CTL, &kp COLON, &kp GREATER_THAN)
 
 
