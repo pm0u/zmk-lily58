@@ -44,11 +44,6 @@ parse_config:
     {
       "&capsdance": "$$mdi:apple-keyboard-caps$$",
       "&caps_word": "CAPSWORD",
-      "&bt BT_SEL 0": { t: "bt 0" },
-      "&bt BT_SEL 1": { t: "bt 1" },
-      "&bt BT_SEL 2": { t: "bt 2" },
-      "&bt BT_SEL 3": { t: "bt 3" },
-      "&bt BT_SEL 4": { t: "bt 4" },
       "&hmr RGUI K": { t: "K", h: "Gui" },
       "&hmr RCTRL L": { t: "L", h: "Ctrl" },
       "&hmr RALT SEMI": { t: ";", h: "Alt", s: ":" },
@@ -57,8 +52,8 @@ parse_config:
       "&hml LCTRL S": { t: "S", h: "Ctrl" },
       "&hml LALT A": { t: "A", h: "Alt" },
       "&hml LSHIFT F": { t: "F", h: "Shift" },
-      "&lpar": { t: "(" },
-      "&rpar": { t: ")" },
+      "&esc": { t: "Esc" },
+      "&tab": { t: "Tab" },
     }
   sticky_label: sticky
   toggle_label: toggle
@@ -284,9 +279,11 @@ parse_config:
   zmk_combos:
     {
       "combo_capsword":
-        { "align": "top", "offset": 0.25, width: 80.0, height: 20.0 },
+        { "align": "top", "offset": 0.3, width: 80.0, height: 20.0 },
       "combo_capslock":
         { "align": "top", "offset": 0.95, width: 60.0, height: 20.0 },
+      "combo_sk_shft":
+        { "align": "top", "offset": 1.7, width: 60.0, height: 30.0 },
       "combo_s_all": { "align": "top", "offset": 0.3 },
       "combo_cut": { "align": "bottom", "offset": 0 },
     }

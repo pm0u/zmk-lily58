@@ -6,16 +6,25 @@
 
 // tap: qmark | shift + tap: excl
 SIMPLE_MORPH(qexcl, SFT, &kp QMARK, &kp EXCL)
+// Tap: lparens  |  shift + tap: <
+SIMPLE_MORPH(lpar_lt, SFT, &kp LPAR, &kp LT)
+// tap: comma | shift + tap: semicolon | ctrl + shift + tap: <
+SIMPLE_MORPH(comma_semi, SFT, &kp COMMA, &comma_inner_morph)
+SIMPLE_MORPH(comma_inner_morph, CTL, &kp SEMICOLON, &kp LESS_THAN)
+// tap: dot | shift + tap: colon | ctrl + shift + tap: >
+SIMPLE_MORPH(dot_colon, SFT, &kp DOT, &kp COLON)
+SIMPLE_MORPH(dot_inner_morph, CTL, &kp COLON, &kp GREATER_THAN)
+
 
 // Define "behaviors" for HRM chord
-ZMK_BEHAVIOR(lpar, tap_dance,
+ZMK_BEHAVIOR(tab, tap_dance,
     tapping-term-ms = <0>;
-    bindings = <&kp LPAR>;
+    bindings = <&kp TAB>;
 )
 
-ZMK_BEHAVIOR(rpar, tap_dance,
+ZMK_BEHAVIOR(esc, tap_dance,
     tapping-term-ms = <0>;
-    bindings = <&kp RPAR>;
+    bindings = <&kp ESC>;
 )
 
 ZMK_TAP_DANCE(capsdance,
