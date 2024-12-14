@@ -47,7 +47,7 @@ layers:
   - ']'
   - N
   - M
-  - {t: ',', s: '&comma_inner_morph'}
+  - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
   - \
