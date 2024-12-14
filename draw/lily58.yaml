@@ -256,9 +256,9 @@ layers:
   - VOL UP
   - {type: trans}
   - {type: trans}
-  - OUT BLE
-  - OUT TOG
-  - OUT USB
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -310,6 +310,13 @@ combos:
   o: 0.95
   w: 60.0
   h: 20.0
+- p: [26, 33]
+  k: {t: LSHFT, h: sticky}
+  l: [base]
+  a: top
+  o: 1.7
+  w: 60.0
+  h: 30.0
 - p: [14, 16]
   k: ^+A
   l: [base, nav, mouse]
