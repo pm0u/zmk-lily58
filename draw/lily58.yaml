@@ -52,7 +52,7 @@ layers:
   - {t: '?', s: '!'}
   - \
   - {type: trans}
-  - nav
+  - '&nav_num'
   - ⌦
   - ␣
   - ⮐
@@ -111,71 +111,12 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: held}
-  - mouse
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  mouse:
   - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_UP'
-  - '&mmv MOVE_RIGHT'
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: held}
-  - {type: held}
-  - {type: trans}
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
   - {type: trans}
   num:
   - {type: trans}
@@ -236,6 +177,124 @@ layers:
   - {type: trans}
   - {type: held}
   - {type: trans}
+  space:
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {t: ^+7, s: ^+&}
+  - {t: ^+8, s: ^+*}
+  - {t: ^+9, s: ^+(}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {t: ^+4, s: ^+$}
+  - {t: ^+5, s: ^+%}
+  - {t: ^+6, s: ^+^}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {t: ^+1, s: ^+!}
+  - {t: ^+2, s: ^+@}
+  - {t: ^+3, s: ^+#}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {t: ^+0, s: ^+)}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  move:
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {t: ^+⇧+7, s: ^+⇧+&}
+  - {t: ^+⇧+8, s: ^+⇧+*}
+  - {t: ^+⇧+9, s: ^+⇧+(}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {t: ^+⇧+4, s: ^+⇧+$}
+  - {t: ^+⇧+5, s: ^+⇧+%}
+  - {t: ^+⇧+6, s: ^+⇧+^}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {t: ^+⇧+1, s: ^+⇧+!}
+  - {t: ^+⇧+2, s: ^+⇧+@}
+  - {t: ^+⇧+3, s: ^+⇧+#}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {t: ^+⇧+0, s: ^+⇧+)}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   util:
   - {type: trans}
   - {type: trans}
@@ -288,7 +347,7 @@ layers:
   - {t: BT, h: '4'}
   - {type: trans}
   - {type: trans}
-  - {type: held}
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -319,15 +378,15 @@ combos:
   h: 30.0
 - p: [14, 16]
   k: ^+A
-  l: [base, nav, mouse]
+  l: [base, nav]
   a: top
   o: 0.3
 - p: [14, 15]
   k: ^+Z
-  l: [base, nav, mouse]
+  l: [base, nav]
 - p: [15, 16]
   k: ^+⇧+Z
-  l: [base, nav, mouse]
+  l: [base, nav]
 - p: [28, 27]
   k: {t: Tab, h: ⇧+Gui}
   l: [base, nav, num]
@@ -336,14 +395,14 @@ combos:
   l: [base, nav, num]
 - p: [38, 40]
   k: ^+X
-  l: [base, nav, mouse]
+  l: [base, nav]
   a: bottom
 - p: [38, 39]
   k: ^+C
-  l: [base, nav, mouse]
+  l: [base, nav]
 - p: [39, 40]
   k: ^+V
-  l: [base, nav, mouse]
+  l: [base, nav]
 - p: [19, 20]
   k: '{'
   l: [base, nav, num]
@@ -364,28 +423,28 @@ combos:
   l: [base, nav, num]
 - p: [26, 14]
   k: '@'
-  l: [base, nav, num, mouse]
+  l: [base, nav, num]
 - p: [27, 15]
   k: '#'
-  l: [base, nav, num, mouse]
+  l: [base, nav, num]
 - p: [28, 16]
   k: $
-  l: [base, nav, num, mouse]
+  l: [base, nav, num]
 - p: [29, 17]
   k: '%'
-  l: [base, nav, num, mouse]
+  l: [base, nav, num]
 - p: [38, 26]
   k: '`'
-  l: [base, nav, num, mouse]
+  l: [base, nav, num]
 - p: [39, 27]
   k: \
-  l: [base, nav, num, mouse]
+  l: [base, nav, num]
 - p: [40, 28]
   k: '='
-  l: [base, nav, num, mouse]
+  l: [base, nav, num]
 - p: [41, 29]
   k: '~'
-  l: [base, nav, num, mouse]
+  l: [base, nav, num]
 - p: [30, 18]
   k: ^
   l: [base, nav, num]
