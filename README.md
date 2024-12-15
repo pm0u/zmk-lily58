@@ -11,6 +11,8 @@
   - f/j triggers caps word, d/k triggers capslock
 - homerow mods ("Timeless" per urob) Homerow follows ACGS mods
   - This leaves my tiling window navigation keys (Gui, Gui + SHIFT) close by (_\* see [OS Accommmodations](#os-accommodations) below_)
+- navigation layers
+  - with the tiling window shortcuts above, i have the `space` and `move` layers set up for single handed window movement if needed (eg, while using mouse)
 - Key / shift remap (per urob)
   - ? / ! are combined with f slash (/) available via combo (per urob)
   - , / ; and . / : tap/shift tap. < / > are available as shifted parens combos (homerow) or Ctrl+Shift+(,/.)
@@ -21,41 +23,13 @@
 ## OS Accommodations
 
 - Mods - Karabiner remaps Gui -> Ctrl and Ctrl -> Gui, this keeps consistent mod "intentions" across OS
-- Due to movement of quote, vim and vim like commands that rely on semi are lost
-  - Karabiner double maps ^' to ^; so that this "vim like" binding opens alfred on this board & built in
-  ```json
-  {
-    "description": "extra alfred shortcut",
-    "manipulators": [
-      {
-        "from": {
-          "key_code": "quote",
-          "modifiers": {
-            "mandatory": ["left_control"],
-            "optional": ["any"]
-          }
-        },
-        "to": [
-          {
-            "key_code": "semicolon",
-            "modifiers": ["left_control"]
-          }
-        ],
-        "type": "basic"
-      }
-    ]
-  }
-  ```
-  - `.zshrc` mod
-  ```zshrc
-  noremap " :
-  ```
 
 ## Layer Explanation
 
 - `nav` layer overlays arrow keys over hjkl for easier navigation in non-vim settings
-- `mouse` is triggered w/ left thumb doubling on thumb keys. this is mainly a bailout layer for me, the position is a bit awkward admittedly. but relying on only the thumb allows for all combos from base layer to carry over for use alongside keyboard mouse controls.
 - `num` layer provides a southpaw numpad with common symbols (WIP, symbols are open to change). Carries over left + right combos from base layer.
+- `space` provides single handed space navigation (mod applied over num layer)
+- `move` provides single handed window space movement (mod+shift applied over num layer)
 - `util` is a conditional layer triggered by activating num/nav. this is a bit of a dumping ground for os/media/zmk utils.
 
 ![keymap](/draw/lily58.svg)
