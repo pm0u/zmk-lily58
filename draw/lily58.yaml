@@ -315,9 +315,9 @@ layers:
   - VOL UP
   - {type: trans}
   - {type: trans}
-  - OUT BLE
   - {type: trans}
-  - OUT USB
+  - {type: trans}
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -326,11 +326,11 @@ layers:
   - $$mdi:play-pause$$
   - $$mdi:skip-next$$
   - {type: trans}
-  - {type: trans}
-  - BRI UP
-  - {type: trans}
-  - BRI DN
   - BT CLR
+  - BRI DN
+  - BRI UP
+  - OUT BLE
+  - OUT USB
   - {type: trans}
   - {type: trans}
   - {type: trans}
