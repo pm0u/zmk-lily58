@@ -1950,23 +1950,17 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
 </g>
-<g transform="translate(732, 99)" class="key keypos-19">
-<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
-<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
-<text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">OUT</tspan><tspan x="0" dy="1.2em">BLE</tspan>
-</text>
+<g transform="translate(732, 99)" class="key trans keypos-19">
+<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
+<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
 </g>
 <g transform="translate(793, 92)" class="key trans keypos-20">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
 </g>
-<g transform="translate(854, 99)" class="key keypos-21">
-<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
-<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
-<text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">OUT</tspan><tspan x="0" dy="1.2em">USB</tspan>
-</text>
+<g transform="translate(854, 99)" class="key trans keypos-21">
+<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
+<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
 </g>
 <g transform="translate(915, 114)" class="key trans keypos-22">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
@@ -2003,33 +1997,39 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
 </g>
-<g transform="translate(671, 168)" class="key trans keypos-30">
-<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
-<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
-</g>
-<g transform="translate(732, 160)" class="key keypos-31">
+<g transform="translate(671, 168)" class="key keypos-30">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
 <text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">BRI</tspan><tspan x="0" dy="1.2em">UP</tspan>
+<tspan x="0" dy="-0.6em">BT</tspan><tspan x="0" dy="1.2em">CLR</tspan>
 </text>
 </g>
-<g transform="translate(793, 152)" class="key trans keypos-32">
-<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
-<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
-</g>
-<g transform="translate(854, 160)" class="key keypos-33">
+<g transform="translate(732, 160)" class="key keypos-31">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
 <text x="0" y="-4" class="key tap">
 <tspan x="0" dy="-0.6em">BRI</tspan><tspan x="0" dy="1.2em">DN</tspan>
 </text>
 </g>
+<g transform="translate(793, 152)" class="key keypos-32">
+<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
+<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em">BRI</tspan><tspan x="0" dy="1.2em">UP</tspan>
+</text>
+</g>
+<g transform="translate(854, 160)" class="key keypos-33">
+<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
+<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em">OUT</tspan><tspan x="0" dy="1.2em">BLE</tspan>
+</text>
+</g>
 <g transform="translate(915, 175)" class="key keypos-34">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
 <text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">BT</tspan><tspan x="0" dy="1.2em">CLR</tspan>
+<tspan x="0" dy="-0.6em">OUT</tspan><tspan x="0" dy="1.2em">USB</tspan>
 </text>
 </g>
 <g transform="translate(976, 183)" class="key trans keypos-35">
