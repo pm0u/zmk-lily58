@@ -9,7 +9,7 @@
 #define MV      3
 #define UTIL    4
 
-#include "setup.dtsif"
+#include "setup.dtsi"
 #include "behaviors.dtsi"
 #include "combos.dtsi"
 
