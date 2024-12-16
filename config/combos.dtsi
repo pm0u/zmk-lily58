@@ -44,8 +44,6 @@ ZMK_COMBO(cut,   &kp LC(X),     LF3 LF1,      BASE NAV    , COMBO_TERM_FAST, COM
 ZMK_COMBO(copy,  &kp LC(C),     LF3 LF2,      BASE NAV    , COMBO_TERM_FAST, COMBO_IDLE_FAST)
 ZMK_COMBO(paste, &kp LC(V),     LF2 LF1,      BASE NAV    , COMBO_TERM_FAST, COMBO_IDLE_FAST)
 
-// Homerow same side combos, 8 arg version
-// Second arg needs to be a behavior - not a &kp binding
 // right side
 // top bskp / del
 ZMK_COMBO(bspc,  &kp BSPC,     RM1 RM2,       BASE NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
