@@ -251,9 +251,9 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - $$mdi:skip-next$$
-  - $$mdi:play-pause$$
   - $$mdi:skip-previous$$
+  - $$mdi:play-pause$$
+  - $$mdi:skip-next$$
   - '&bootloader'
   - '&bootloader'
   - {type: trans}
