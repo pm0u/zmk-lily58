@@ -33,3 +33,8 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
     ZMK_COMBO_6(NAME, &hm_combo_ ## NAME HOLD 0, KEYPOS, LAYERS, COMBO_TERM, COMBO_IDLE)
 
 #define ___ &trans
+
+&sk {
+  quick-release;
+  /delete-property/ ignore-modifiers;
+}
