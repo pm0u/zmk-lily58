@@ -357,10 +357,10 @@ combos:
   k: {t: ), h: ⇧+Ctrl, s: '>'}
   l: [base, nav, num]
 - p: [45, 46]
-  k: '['
+  k: {t: '{', s: '['}
   l: [base, nav, num]
 - p: [46, 47]
-  k: ']'
+  k: {t: '{', s: '['}
   l: [base, nav, num]
 - p: [26, 14]
   k: '@'
