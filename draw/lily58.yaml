@@ -49,7 +49,7 @@ layers:
   - M
   - {t: ',', s: ;}
   - {t: ., s: ':'}
-  - {t: '?', s: '!'}
+  - '&qexcl'
   - {type: trans}
   - {type: trans}
   - '&nav'
