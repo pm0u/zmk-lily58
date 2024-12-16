@@ -450,7 +450,7 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="173" y="141" width="20" height="30" class="combo"/>
 <text x="183" y="156" class="combo tap">Esc</text>
-<text x="183" y="169" class="combo hold"><tspan style="font-size: 83%">⇧+Ctrl</tspan></text>
+<text x="183" y="169" class="combo hold"><tspan style="font-size: 83%">⌘+Ctrl</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M214,253 h-55 a6.0,6.0 0 0 1 -6.0,-6.0 v-5" class="combo"/>
@@ -483,7 +483,7 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 <g class="combo combopos-11">
 <rect rx="6" ry="6" x="814" y="141" width="20" height="30" class="combo"/>
 <text x="824" y="156" class="combo tap">)</text>
-<text x="824" y="169" class="combo hold"><tspan style="font-size: 83%">⇧+Ctrl</tspan></text>
+<text x="824" y="169" class="combo hold"><tspan style="font-size: 83%">⌘+Ctrl</tspan></text>
 <text x="824" y="143" class="combo shifted">&gt;</text>
 </g>
 <g class="combo combopos-12">
@@ -826,7 +826,7 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="173" y="141" width="20" height="30" class="combo"/>
 <text x="183" y="156" class="combo tap">Esc</text>
-<text x="183" y="169" class="combo hold"><tspan style="font-size: 83%">⇧+Ctrl</tspan></text>
+<text x="183" y="169" class="combo hold"><tspan style="font-size: 83%">⌘+Ctrl</tspan></text>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="752" y="80" width="20" height="30" class="combo"/>
@@ -845,7 +845,7 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="814" y="141" width="20" height="30" class="combo"/>
 <text x="824" y="156" class="combo tap">)</text>
-<text x="824" y="169" class="combo hold"><tspan style="font-size: 83%">⇧+Ctrl</tspan></text>
+<text x="824" y="169" class="combo hold"><tspan style="font-size: 83%">⌘+Ctrl</tspan></text>
 <text x="824" y="143" class="combo shifted">&gt;</text>
 </g>
 <g class="combo combopos-6">
@@ -1208,7 +1208,7 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="173" y="141" width="20" height="30" class="combo"/>
 <text x="183" y="156" class="combo tap">Esc</text>
-<text x="183" y="169" class="combo hold"><tspan style="font-size: 83%">⇧+Ctrl</tspan></text>
+<text x="183" y="169" class="combo hold"><tspan style="font-size: 83%">⌘+Ctrl</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M214,253 h-55 a6.0,6.0 0 0 1 -6.0,-6.0 v-5" class="combo"/>
@@ -1240,7 +1240,7 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 <g class="combo combopos-11">
 <rect rx="6" ry="6" x="814" y="141" width="20" height="30" class="combo"/>
 <text x="824" y="156" class="combo tap"><tspan style="font-size: 71%">&amp;g_than</tspan></text>
-<text x="824" y="169" class="combo hold"><tspan style="font-size: 83%">⇧+Ctrl</tspan></text>
+<text x="824" y="169" class="combo hold"><tspan style="font-size: 83%">⌘+Ctrl</tspan></text>
 </g>
 <g class="combo combopos-12">
 <rect rx="6" ry="6" x="752" y="202" width="20" height="30" class="combo"/>
