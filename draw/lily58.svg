@@ -507,11 +507,13 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 </g>
 <g class="combo combopos-15">
 <rect rx="6" ry="6" x="752" y="202" width="20" height="30" class="combo"/>
-<text x="762" y="217" class="combo tap">[</text>
+<text x="762" y="217" class="combo tap">{</text>
+<text x="762" y="204" class="combo shifted">[</text>
 </g>
 <g class="combo combopos-16">
 <rect rx="6" ry="6" x="814" y="202" width="20" height="30" class="combo"/>
-<text x="824" y="217" class="combo tap">]</text>
+<text x="824" y="217" class="combo tap">{</text>
+<text x="824" y="204" class="combo shifted">[</text>
 </g>
 <g class="combo combopos-17">
 <rect rx="6" ry="6" x="142" y="115" width="20" height="30" class="combo"/>
@@ -867,11 +869,13 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 </g>
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="752" y="202" width="20" height="30" class="combo"/>
-<text x="762" y="217" class="combo tap">[</text>
+<text x="762" y="217" class="combo tap">{</text>
+<text x="762" y="204" class="combo shifted">[</text>
 </g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="814" y="202" width="20" height="30" class="combo"/>
-<text x="824" y="217" class="combo tap">]</text>
+<text x="824" y="217" class="combo tap">{</text>
+<text x="824" y="204" class="combo shifted">[</text>
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="142" y="115" width="20" height="30" class="combo"/>
@@ -1258,11 +1262,13 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 </g>
 <g class="combo combopos-12">
 <rect rx="6" ry="6" x="752" y="202" width="20" height="30" class="combo"/>
-<text x="762" y="217" class="combo tap">[</text>
+<text x="762" y="217" class="combo tap">{</text>
+<text x="762" y="204" class="combo shifted">[</text>
 </g>
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="814" y="202" width="20" height="30" class="combo"/>
-<text x="824" y="217" class="combo tap">]</text>
+<text x="824" y="217" class="combo tap">{</text>
+<text x="824" y="204" class="combo shifted">[</text>
 </g>
 <g class="combo combopos-14">
 <rect rx="6" ry="6" x="142" y="115" width="20" height="30" class="combo"/>
