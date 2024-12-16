@@ -56,7 +56,7 @@ layers:
   - ⌫
   - ␣
   - ⮐
-  - {t: LSHFT, h: sticky, s: CAPSWORD}
+  - {t: RSHFT, h: sticky, s: CAPSWORD}
   - num
   - {type: trans}
   num:
