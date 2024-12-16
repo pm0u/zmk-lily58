@@ -311,7 +311,7 @@ combos:
   k: {t: Tab, h: ⇧+Gui}
   l: [base, nav, num]
 - p: [27, 26]
-  k: {t: Esc, h: ⇧+Ctrl}
+  k: {t: Esc, h: ⌘+Ctrl}
   l: [base, nav, num]
 - p: [38, 40]
   k: ^+X
@@ -333,13 +333,13 @@ combos:
   k: {t: (, h: ⇧+Gui, s: <}
   l: [base, num]
 - p: [32, 33]
-  k: {t: ), h: ⇧+Ctrl, s: '>'}
+  k: {t: ), h: ⌘+Ctrl, s: '>'}
   l: [base, num]
 - p: [31, 32]
   k: {t: '&l_than', h: ⇧+Gui}
   l: [nav]
 - p: [32, 33]
-  k: {t: '&g_than', h: ⇧+Ctrl}
+  k: {t: '&g_than', h: ⌘+Ctrl}
   l: [nav]
 - p: [45, 46]
   k: {t: '{', s: '['}
