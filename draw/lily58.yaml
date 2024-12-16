@@ -335,12 +335,6 @@ combos:
 - p: [32, 33]
   k: {t: ), h: ⇧+Ctrl, s: '>'}
   l: [base, num]
-- p: [31, 32]
-  k: {t: '&lt', h: ⇧+Gui}
-  l: [nav]
-- p: [32, 33]
-  k: {t: '&gt', h: ⇧+Ctrl}
-  l: [nav]
 - p: [45, 46]
   k: {t: '{', s: '['}
   l: [base, num]
