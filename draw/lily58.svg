@@ -399,7 +399,9 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 <g transform="translate(305, 290)" class="key keypos-52">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
-<text x="0" y="-4" class="key tap">⌫</text>
+<text x="0" y="-4" class="key tap">RSHFT</text>
+<text x="0" y="26" class="key hold"><tspan style="font-size: 83%">sticky</tspan></text>
+<text x="0" y="-26" class="key shifted"><tspan style="font-size: 62%">CAPSWORD</tspan></text>
 </g>
 <g transform="translate(381, 290) rotate(30.0)" class="key keypos-53">
 <rect rx="6" ry="6" x="-28" y="-44" width="57" height="88" class="key side"/>
@@ -414,9 +416,7 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 <g transform="translate(702, 290)" class="key keypos-55">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
-<text x="0" y="-4" class="key tap">RSHFT</text>
-<text x="0" y="26" class="key hold"><tspan style="font-size: 83%">sticky</tspan></text>
-<text x="0" y="-26" class="key shifted"><tspan style="font-size: 62%">CAPSWORD</tspan></text>
+<text x="0" y="-4" class="key tap">BSPC</text>
 </g>
 <g transform="translate(762, 284)" class="key keypos-56">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
@@ -1068,19 +1068,16 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
 <use href="#mdi:arrow-down" xlink:href="#mdi:arrow-down" x="-7" y="-11" height="14" width="14.0" class="key tap glyph mdi:arrow-down"/>
-<text x="0" y="26" class="key hold">Shift</text>
 </g>
 <g transform="translate(793, 152)" class="key keypos-32">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
 <use href="#mdi:arrow-up" xlink:href="#mdi:arrow-up" x="-7" y="-11" height="14" width="14.0" class="key tap glyph mdi:arrow-up"/>
-<text x="0" y="26" class="key hold">Gui</text>
 </g>
 <g transform="translate(854, 160)" class="key keypos-33">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
 <use href="#mdi:arrow-right" xlink:href="#mdi:arrow-right" x="-7" y="-11" height="14" width="14.0" class="key tap glyph mdi:arrow-right"/>
-<text x="0" y="26" class="key hold">Ctrl</text>
 </g>
 <g transform="translate(915, 175)" class="key trans keypos-34">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>

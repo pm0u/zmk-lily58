@@ -53,10 +53,10 @@ layers:
   - {type: trans}
   - {type: trans}
   - '&nav'
-  - ⌫
+  - {t: RSHFT, h: sticky, s: CAPSWORD}
   - ␣
   - ⮐
-  - {t: RSHFT, h: sticky, s: CAPSWORD}
+  - BSPC
   - num
   - {type: trans}
   num:
@@ -150,9 +150,9 @@ layers:
   - {t: ⌘+6, s: ⌘+^}
   - {type: trans}
   - $$mdi:arrow-left$$
-  - {t: '$$mdi:arrow-down$$', h: Shift}
-  - {t: '$$mdi:arrow-up$$', h: Gui}
-  - {t: '$$mdi:arrow-right$$', h: Ctrl}
+  - $$mdi:arrow-down$$
+  - $$mdi:arrow-up$$
+  - $$mdi:arrow-right$$
   - {type: trans}
   - {type: trans}
   - {type: trans}
