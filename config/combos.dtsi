@@ -53,8 +53,8 @@ ZMK_COMBO(del,   &kp DEL,      RM2 RM3,       BASE NAV NUM, COMBO_TERM_FAST, COM
 ZMK_COMBO(lpar,  &lpar_lt,      RB1 RB2,      BASE     NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST, RS(RGUI),    KEYS_L)
 ZMK_COMBO(rpar,  &rpar_gt,      RB2 RB3,      BASE     NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST, RS(RCTRL),   KEYS_L)
 // home row, nav layer
-//ZMK_COMBO(lt,    &lt,           RB1 RB2,           NAV    , COMBO_TERM_FAST, COMBO_IDLE_FAST, RS(RGUI),    KEYS_L)
-//ZMK_COMBO(gt,    &gt,           RB2 RB3,           NAV    , COMBO_TERM_FAST, COMBO_IDLE_FAST, RS(RCTRL),   KEYS_L)
+ZMK_COMBO(lt,    &l_than,       RB1 RB2,           NAV    , COMBO_TERM_FAST, COMBO_IDLE_FAST, RS(RGUI),    KEYS_L)
+ZMK_COMBO(gt,    &g_than,       RB2 RB3,           NAV    , COMBO_TERM_FAST, COMBO_IDLE_FAST, RS(RCTRL),   KEYS_L)
 
 // bottom row []
 ZMK_COMBO(lbrc,  &lbrc,         RF1 RF2,      BASE     NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)

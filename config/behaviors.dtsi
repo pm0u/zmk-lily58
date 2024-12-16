@@ -40,15 +40,15 @@ ZMK_BEHAVIOR(esc, tap_dance,
     bindings = <&kp ESC>;
 )
 
-//ZMK_BEHAVIOR(&lt, tap_dance,
-//    tapping-term-ms = <0>;
-//    bindings = <&kp LESS_THAN>;
-//)
-//
-//ZMK_BEHAVIOR(&gt, tap_dance,
-//    tapping-term-ms = <0>;
-//    bindings = <&kp GREATER_THAN>;
-//)
+ZMK_BEHAVIOR(l_than, tap_dance,
+    tapping-term-ms = <0>;
+    bindings = <&kp LESS_THAN>;
+)
+
+ZMK_BEHAVIOR(g_than, tap_dance,
+    tapping-term-ms = <0>;
+    bindings = <&kp GREATER_THAN>;
+)
 
 ZMK_BEHAVIOR(nav, tap_dance,
     tapping-term-ms = <400>;
