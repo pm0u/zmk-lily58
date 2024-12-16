@@ -25,8 +25,8 @@ SIMPLE_MORPH(rbrc, SFT, &kp RBRC, &kp RBKT)
 
 // tap: sticky-shift | shift + tap/ double-tap: caps-word | hold: shift
 ZMK_MOD_MORPH(smart_shft,
-    bindings = <&sk RSHFT>, <&caps_word>;
-    mods = <(MOD_RSFT)>;
+    bindings = <&sk LSHFT>, <&caps_word>;
+    mods = <(MOD_LSFT)>;
 )
 
 // Define "behaviors" for HRM chord
@@ -52,7 +52,7 @@ ZMK_BEHAVIOR(g_than, tap_dance,
 
 ZMK_BEHAVIOR(nav, tap_dance,
     tapping-term-ms = <400>;
-    bindings = <&mo NAV>, <&sl MV>;
+    bindings = <&mo NAV>, <&mo MV>;
 )
 
 // for some reason this seems to be order dependent
