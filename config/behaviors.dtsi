@@ -32,7 +32,7 @@ ZMK_BEHAVIOR(esc, tap_dance,
 )
 
 ZMK_BEHAVIOR(nav_num, tap_dance,
-    tapping-term-ms = <250>;
+    tapping-term-ms = <400>;
     bindings = <&mo NAV>, <&sl SP>, <&sl MV>;
 )
 
