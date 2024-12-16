@@ -2,13 +2,6 @@
 #include <zmk-helpers/helper.h>
 #include <zmk-helpers/key-labels/lily58.h>
 
-#define BASE    0
-#define NAV     1
-#define NUM     2
-#define SP      3
-#define MV      4
-#define UTIL    5
-
 #define QUICK_TAP_MS 150
 
 /**
