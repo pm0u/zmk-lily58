@@ -36,5 +36,4 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
 
 &sk {
   quick-release;
-  /delete-property/ ignore-modifiers;
 }
