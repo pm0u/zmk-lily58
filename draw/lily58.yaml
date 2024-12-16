@@ -1,19 +1,19 @@
 layout: {qmk_keyboard: lily58_rotated}
 layers:
   base:
-  - '`'
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
-  - _
-  - ⇥
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - Q
   - W
   - E
@@ -24,8 +24,8 @@ layers:
   - I
   - O
   - P
-  - '='
-  - $$mdi:location-exit$$
+  - {type: trans}
+  - {type: trans}
   - {t: A, h: Alt}
   - {t: S, h: Ctrl}
   - {t: D, h: Gui}
@@ -36,8 +36,8 @@ layers:
   - {t: K, h: Gui}
   - {t: L, h: Ctrl}
   - {t: '''', h: Alt}
-  - ''''
-  - $$mdi:apple-keyboard-caps$$
+  - {type: trans}
+  - {type: trans}
   - Z
   - X
   - C
@@ -50,73 +50,14 @@ layers:
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
-  - \
+  - {type: trans}
   - {type: trans}
   - '&nav_num'
   - ⌫
-  - '&lt_spc SPACE'
+  - ␣
   - ⮐
   - {t: LSHFT, h: sticky, s: CAPSWORD}
   - num
-  - {type: trans}
-  nav:
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - $$mdi:arrow-left$$
-  - $$mdi:arrow-down$$
-  - $$mdi:arrow-up$$
-  - $$mdi:arrow-right$$
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
   - {type: trans}
   num:
   - {type: trans}
@@ -177,7 +118,7 @@ layers:
   - {type: trans}
   - {type: held}
   - {type: trans}
-  space:
+  nav:
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -208,10 +149,10 @@ layers:
   - {t: ⌘+5, s: ⌘+%}
   - {t: ⌘+6, s: ⌘+^}
   - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - $$mdi:arrow-left$$
+  - {t: '$$mdi:arrow-down$$', h: Shift}
+  - {t: '$$mdi:arrow-up$$', h: Gui}
+  - {t: '$$mdi:arrow-right$$', h: Ctrl}
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -230,7 +171,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {t: ⌘+0, s: ⌘+)}
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -310,21 +251,21 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - VOL UP
-  - $$mdi:volume-off$$
-  - VOL DN
-  - '&bootloader'
-  - '&bootloader'
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
   - $$mdi:skip-next$$
   - $$mdi:play-pause$$
   - $$mdi:skip-previous$$
+  - '&bootloader'
+  - '&bootloader'
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - $$mdi:volume-off$$
+  - VOL UP
+  - VOL DN
   - {type: trans}
   - BT CLR
   - BRI DN
@@ -383,23 +324,35 @@ combos:
   k: ^+V
   l: [base, nav]
 - p: [19, 20]
-  k: '{'
+  k: BSPC
   l: [base, nav, num]
 - p: [20, 21]
-  k: '}'
+  k: ⌦
   l: [base, nav, num]
 - p: [31, 32]
   k: {t: (, h: ⇧+Gui, s: <}
-  l: [base, nav, num]
+  l: [base, num]
 - p: [32, 33]
   k: {t: ), h: ⇧+Ctrl, s: '>'}
-  l: [base, nav, num]
+  l: [base, num]
+- p: [31, 32]
+  k: {t: '&lt', h: ⇧+Gui}
+  l: [nav]
+- p: [32, 33]
+  k: {t: '&gt', h: ⇧+Ctrl}
+  l: [nav]
+- p: [45, 46]
+  k: {t: '{', s: '['}
+  l: [base, num]
+- p: [46, 47]
+  k: {t: '}', s: ']'}
+  l: [base, num]
 - p: [45, 46]
   k: '['
-  l: [base, nav, num]
+  l: [nav]
 - p: [46, 47]
   k: ']'
-  l: [base, nav, num]
+  l: [nav]
 - p: [26, 14]
   k: '@'
   l: [base, nav, num]
