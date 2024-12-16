@@ -47,7 +47,7 @@ layers:
   - {type: trans}
   - N
   - M
-  - ','
+  - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
   - {type: trans}
