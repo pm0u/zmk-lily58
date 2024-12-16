@@ -15,7 +15,7 @@
 #define MV      4
 #define UTIL    5
 
-#define QUICK_TAP_MS 175
+#define QUICK_TAP_MS 150
 
 /**
  * Home row mods
@@ -27,7 +27,7 @@
 #define MAKE_HRM(NAME, HOLD, TAP, TRIGGER_POS) \
     ZMK_HOLD_TAP(NAME, \
         flavor = "balanced"; \
-        tapping-term-ms = <200>; \
+        tapping-term-ms = <150>; \
         quick-tap-ms = <QUICK_TAP_MS>; \
         require-prior-idle-ms = <100>; \
         bindings = <HOLD>, <TAP>; \
