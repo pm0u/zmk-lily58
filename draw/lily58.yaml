@@ -43,8 +43,8 @@ layers:
   - C
   - V
   - B
-  - '['
-  - ']'
+  - {type: trans}
+  - {type: trans}
   - N
   - M
   - {t: ',', s: ;}
@@ -53,10 +53,10 @@ layers:
   - \
   - {type: trans}
   - '&nav_num'
-  - ⌦
-  - ␣
-  - ⮐
   - ⌫
+  - '&lt_spc SPACE'
+  - ⮐
+  - {t: LSHFT, h: sticky, s: CAPSWORD}
   - num
   - {type: trans}
   nav:
@@ -132,11 +132,10 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - '['
+  - {type: trans}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - ']'
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -144,11 +143,11 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - \
+  - {type: trans}
+  - {type: trans}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
-  - '='
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -156,11 +155,12 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - (
+  - {type: trans}
+  - {type: trans}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
-  - )
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -355,27 +355,6 @@ layers:
   - {type: held}
   - {type: trans}
 combos:
-- p: [28, 31]
-  k: CAPSWORD
-  l: [base]
-  a: top
-  o: 0.3
-  w: 80.0
-  h: 20.0
-- p: [27, 32]
-  k: {t: LSHFT, h: sticky}
-  l: [base]
-  a: top
-  o: 1.7
-  w: 60.0
-  h: 30.0
-- p: [26, 33]
-  k: CAPSLOCK
-  l: [base]
-  a: top
-  o: 0.95
-  w: 60.0
-  h: 20.0
 - p: [14, 16]
   k: ^+A
   l: [base, nav]
