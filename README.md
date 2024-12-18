@@ -1,3 +1,5 @@
+# ⚠️ **THIS HAS MOVED - latest [here](https://github.com/pm0u/zmk-config)** ⚠️
+
 # ZMK Config
 
 ## Philosophy
