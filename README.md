@@ -27,4 +27,4 @@
 - `mv` provides single handed window space movement (mod+shift applied over num layer). This is accessed via a double tap of the `NAV` layer key.
 - `util` is a conditional layer triggered by activating num/nav. this is a bit of a dumping ground for os/media/zmk utils.
 
-![keymap](/draw/lily58.svg)
+![keymap](/draw/corne.svg)
