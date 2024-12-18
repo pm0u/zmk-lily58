@@ -17,16 +17,16 @@
 #define THUMBS LH0 LH1 LH2 LH3 RH0 RH1 RH2 RH3
 
 
-#define X_LT ___      ___       ___       ___       ___         ___       ___       ___       ___       ___ \
+#define X_LT ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ \
              ___
-#define X_RT                                                                                            ___
+#define X_RT ___
 #define X_LM ___
-#define X_RM                                                                                            ___
+#define X_RM ___
 #define X_LB ___
-#define X_MB                                            ___ ___
-#define X_RB                                                                                            ___
+#define X_MB ___ ___
+#define X_RB ___
 #define X_LH ___
-#define X_RH                                                                                            ___
+#define X_RH ___
 
 
 #include "base.keymap"
